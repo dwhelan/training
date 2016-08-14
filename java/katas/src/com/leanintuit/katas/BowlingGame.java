@@ -1,5 +1,4 @@
-package com.leanintuit.kata;
+package com.leanintuit.katas;
 
 public class BowlingGame {
-
 }
