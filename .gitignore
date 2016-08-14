@@ -1,6 +1,7 @@
 /java/.metadata/.log
 /java/.metadata/.plugins
 /java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+/java/.metadata/.mylyn/*
 /java/katas/bin
 
 *.swp
