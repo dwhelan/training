@@ -4,6 +4,7 @@
 /java/.metadata/.plugins/org.eclipse.jdt.core/*.index
 /java/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
 /java/.metadata/.mylyn/*
+/java/.metadata/**/*.snap
 
 /java/katas/bin
 
