@@ -1,6 +1,8 @@
 /java/.metadata/.log
 /java/.metadata/.plugins
 /java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+/java/.metadata/.plugins/org.eclipse.jdt.core/*.index
+/java/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
 /java/.metadata/.mylyn/*
 
 /java/katas/bin
