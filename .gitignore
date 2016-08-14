@@ -1,1 +1,5 @@
 /java/.metadata/.log
+/java/.metadata/.plugins
+/java/katas/bin
+
+*.swp
