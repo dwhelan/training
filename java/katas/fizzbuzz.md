@@ -44,4 +44,7 @@ game.valueFor(20); // "buzz"
 game.valueFor(21); // "fizz"
 game.valueFor(22); // "22"
 game.valueFor(23); // "fizz"
+...
+game.valueFor(30); // "fizzbuzz"
+
 ```
