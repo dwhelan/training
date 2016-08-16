@@ -16,3 +16,4 @@
 /java/katas/bin
 
 *.swp
+*.received.txt
