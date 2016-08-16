@@ -6,7 +6,7 @@
 /java/.metadata/.plugins/org.eclipse.jdt.core/*.index
 /java/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
 /java/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
-/java/.metadata/.mylyn/*
+/java/.metadata/**/*mylyn*
 /java/.metadata/**/*.snap
 
 
