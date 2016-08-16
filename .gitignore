@@ -8,7 +8,9 @@
 /java/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
 /java/.metadata/**/*mylyn*
 /java/.metadata/**/*.snap
+/java/.metadata/version.ini
 
+/java/RemoteSystemsTempFiles/
 
 /java/katas/bin
 
