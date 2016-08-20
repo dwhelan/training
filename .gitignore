@@ -1,3 +1,8 @@
+/cs/katas/.vs
+/cs/katas/bin
+/cs/katas/obj
+/cs/katas/packages/
+
 /java/.metadata/.log
 /java/.metadata/.plugins
 /java/.metadata/.recommenders
@@ -10,9 +15,7 @@
 /java/.metadata/**/*mylyn*
 /java/.metadata/**/*.snap
 /java/.metadata/version.ini
-
 /java/RemoteSystemsTempFiles/
-
 /java/katas/bin
 
 *.swp
