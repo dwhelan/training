@@ -1,4 +1,4 @@
-package com.leanintuit.katas;
+package com.leanintuit.katas.stringcalculator;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 import org.junit.Ignore;
 import org.junit.Test;
 
-public class TriviaScorerTest {
+public class StringCalculatorTest {
 	@Test @Ignore
 	public void should_do_something() {
 		assertThat("The answer", is("42"));
