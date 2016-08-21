@@ -54,6 +54,8 @@
   <ItemGroup>
     <Compile Include="bowling\BowlingGame.cs" />
     <Compile Include="bowling\BowlingTest.cs" />
+    <Compile Include="fizzbuzz\Fizzbuzz.cs" />
+    <Compile Include="fizzbuzz\FizzbuzzTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
