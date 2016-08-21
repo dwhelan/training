@@ -54,6 +54,8 @@
   <ItemGroup>
     <Compile Include="Bowling\BowlingGame.cs" />
     <Compile Include="Bowling\BowlingTest.cs" />
+    <Compile Include="GildedRose\ApprovalTests.cs" />
+    <Compile Include="GildedRose\Program.cs" />
     <Compile Include="TriviaScorer\TriviaScorer.cs" />
     <Compile Include="TriviaScorer\TriviaScorerTest.cs" />
     <Compile Include="StringCalculator\StringCalculator.cs" />
@@ -68,6 +70,9 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GildedRose\ApprovalTests.Inventory_should_update.approved.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
