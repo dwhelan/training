@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using GildedRose.Console;
 using NUnit.Framework;
 using ApprovalTests;
 using ApprovalTests.Reporters;

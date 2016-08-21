@@ -1,8 +1,11 @@
-/cs/katas/.vs
-/cs/katas/bin
-/cs/katas/obj
-/cs/katas/packages/
+# Visual Studio / C#
+/cs/Katas/.vs
+/cs/Katas/bin
+/cs/Katas/obj
+/cs/Katas/packages/
+*.user
 
+# Eclipse
 /java/.metadata/.log
 /java/.metadata/.plugins
 /java/.metadata/.recommenders
@@ -19,4 +22,6 @@
 /java/katas/bin
 
 *.swp
+
+# Approval Tests
 *.received.txt
