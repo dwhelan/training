@@ -52,8 +52,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BowlingGame.cs" />
-    <Compile Include="BowlingTest.cs" />
+    <Compile Include="bowling\BowlingGame.cs" />
+    <Compile Include="bowling\BowlingTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

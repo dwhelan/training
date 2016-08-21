@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
 
-namespace katas
+namespace katas.bowling
 {
     [TestFixture]
     public class BowlingTest
