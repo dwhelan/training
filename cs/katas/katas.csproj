@@ -54,6 +54,8 @@
   <ItemGroup>
     <Compile Include="Bowling\BowlingGame.cs" />
     <Compile Include="Bowling\BowlingTest.cs" />
+    <Compile Include="StringCalculator\StringCalculator.cs" />
+    <Compile Include="StringCalculator\StringCalculatorTest.cs" />
     <Compile Include="RomanNumeralCalculator\RomanNumeralCalculator.cs" />
     <Compile Include="RomanNumeralCalculator\RomanNumeralCalculatorTest.cs" />
     <Compile Include="Fiizzbuzz\Fizzbuzz.cs" />
