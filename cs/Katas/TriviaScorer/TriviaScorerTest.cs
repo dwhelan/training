@@ -1,10 +1,10 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
 
-namespace Katas.StringCalculator
+namespace Katas.TriviaScorer
 {
     [TestFixture]
-    public class StringCalculatorTest
+    public class TriviaScorerTest
     {
        [Test]
        [Ignore("under construction ")]

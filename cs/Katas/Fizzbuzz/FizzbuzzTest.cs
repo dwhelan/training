@@ -7,7 +7,7 @@ namespace Katas.Fizzbuzz
     public class FizzbuzzTest
     {
        [Test]
-       [Ignore("until doing the kata")]
+       [Ignore("under construction ")]
         public void should_do_something()
        {
            "the answer".Should().Be("42");

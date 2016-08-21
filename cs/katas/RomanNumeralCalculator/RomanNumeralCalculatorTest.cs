@@ -7,7 +7,7 @@ namespace Katas.RomanNumeralCalculator
     public class RomanNumeralCalculatorTest
     {
        [Test]
-       [Ignore("until doing the kata")]
+       [Ignore("under construction ")]
         public void should_do_something()
        {
            "the answer".Should().Be("42");

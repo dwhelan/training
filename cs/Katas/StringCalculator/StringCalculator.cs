@@ -1,4 +1,4 @@
-﻿namespace katas.StringCalculator
+﻿namespace Katas.StringCalculator
 {
     public class StringCalculator
     {

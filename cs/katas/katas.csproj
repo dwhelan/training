@@ -7,8 +7,8 @@
     <ProjectGuid>{665DFB5E-8C7A-4FAF-AD59-C555AACC1E3F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>katas</RootNamespace>
-    <AssemblyName>katas</AssemblyName>
+    <RootNamespace>Katas</RootNamespace>
+    <AssemblyName>Katas</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -54,12 +54,14 @@
   <ItemGroup>
     <Compile Include="Bowling\BowlingGame.cs" />
     <Compile Include="Bowling\BowlingTest.cs" />
+    <Compile Include="TriviaScorer\TriviaScorer.cs" />
+    <Compile Include="TriviaScorer\TriviaScorerTest.cs" />
     <Compile Include="StringCalculator\StringCalculator.cs" />
     <Compile Include="StringCalculator\StringCalculatorTest.cs" />
     <Compile Include="RomanNumeralCalculator\RomanNumeralCalculator.cs" />
     <Compile Include="RomanNumeralCalculator\RomanNumeralCalculatorTest.cs" />
-    <Compile Include="Fiizzbuzz\Fizzbuzz.cs" />
-    <Compile Include="Fiizzbuzz\FizzbuzzTest.cs" />
+    <Compile Include="Fizzbuzz\Fizzbuzz.cs" />
+    <Compile Include="Fizzbuzz\FizzbuzzTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
