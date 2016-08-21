@@ -1,4 +1,4 @@
-﻿namespace katas.bowling
+﻿namespace Katas.Bowling
 {
     public class BowlingGame
     {

@@ -1,10 +1,10 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
 
-namespace Katas.Bowling
+namespace Katas.Fizzbuzz
 {
     [TestFixture]
-    public class BowlingTest
+    public class FizzbuzzTest
     {
        [Test]
        [Ignore("until doing the kata")]

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "katas", "katas.csproj", "{665DFB5E-8C7A-4FAF-AD59-C555AACC1E3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas", "Katas.csproj", "{665DFB5E-8C7A-4FAF-AD59-C555AACC1E3F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "descriptions", "descriptions", "{0708B39B-DC7D-4D3D-934A-9971F2AF50C3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Descriptions", "Descriptions", "{0708B39B-DC7D-4D3D-934A-9971F2AF50C3}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\descriptions\bowling.md = ..\..\descriptions\bowling.md
 		..\..\descriptions\fizzbuzz.md = ..\..\descriptions\fizzbuzz.md

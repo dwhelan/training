@@ -52,10 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="bowling\BowlingGame.cs" />
-    <Compile Include="bowling\BowlingTest.cs" />
-    <Compile Include="fizzbuzz\Fizzbuzz.cs" />
-    <Compile Include="fizzbuzz\FizzbuzzTest.cs" />
+    <Compile Include="Bowling\BowlingGame.cs" />
+    <Compile Include="Bowling\BowlingTest.cs" />
+    <Compile Include="RomanNumeralCalculator\RomanNumeralCalculator.cs" />
+    <Compile Include="RomanNumeralCalculator\RomanNumeralCalculatorTest.cs" />
+    <Compile Include="Fiizzbuzz\Fizzbuzz.cs" />
+    <Compile Include="Fiizzbuzz\FizzbuzzTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

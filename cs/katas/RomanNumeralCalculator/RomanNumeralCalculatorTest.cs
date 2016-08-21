@@ -1,10 +1,10 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
 
-namespace katas.fizzbuzz
+namespace Katas.RomanNumeralCalculator
 {
     [TestFixture]
-    public class FizzbuzzTest
+    public class RomanNumeralCalculatorTest
     {
        [Test]
        [Ignore("until doing the kata")]

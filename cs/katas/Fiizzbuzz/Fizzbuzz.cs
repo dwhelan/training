@@ -1,4 +1,4 @@
-﻿namespace katas.fizzbuzz
+﻿namespace Katas.Fizzbuzz
 {
     public class Fizzbuzz
     {
