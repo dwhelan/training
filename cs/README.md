@@ -1,6 +1,10 @@
 # C#
 
-This repository contains training exercises and katas in C#.
+Training exercises and katas in C#. The is a single solution created with separate folders and namespaces for each kata.
+
+
+### .NET Framework
+The solution is targeted for .NET 4.0.
 
 ### Unit Tests
 Unit tests use
@@ -12,6 +16,10 @@ Michael Feathers coined the term
 to refer to tests that capture how existing code works.
 This is particularly useful when working with legacy code.
 We will use [Approval tests](http://approvaltests.com/) to create and run characterization tests.
+
+### Mock Objects
+[Moq](https://github.com/moq/moq4) is used for creating mock object and more generally test doubles.
+Version 4.2 is selected as more recent versions depend on .NET 4.5.
 
 ### Markdown
 Markdown support is not built into Visual Studio. To enable better viewing of the kata instructions
