@@ -69,6 +69,11 @@
     <Compile Include="Bowling\BowlingGameTest.cs" />
     <Compile Include="GildedRose\ApprovalTests.cs" />
     <Compile Include="GildedRose\Program.cs" />
+    <Compile Include="MoqExample\HitchHikerGuide.cs" />
+    <Compile Include="MoqExample\HitchHikerGuideTest.cs" />
+    <Compile Include="MoqExample\ILogger.cs" />
+    <Compile Include="MoqExample\Logger.cs" />
+    <Compile Include="MoqExample\NullLogger.cs" />
     <Compile Include="TriviaScorer\TriviaScorer.cs" />
     <Compile Include="TriviaScorer\TriviaScorerTest.cs" />
     <Compile Include="StringCalculator\StringCalculator.cs" />
