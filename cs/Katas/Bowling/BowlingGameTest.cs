@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace Katas.Bowling
 {
     [TestFixture]
-    public class BowlingTest
+    public class BowlingGameTest
     {
         [Test]
         [Ignore("under construction ")]
