@@ -1,8 +1,8 @@
 # Visual Studio / C#
-/cs/Katas/.vs
-/cs/Katas/bin
-/cs/Katas/obj
-/cs/Katas/packages/
+/cs/.vs
+/cs/bin
+/cs/obj
+/cs/packages/
 *.user
 
 # Eclipse
