@@ -1,10 +1,11 @@
 # C#
 
-Training exercises and katas in C#. The is a single solution created with separate folders and namespaces for each kata.
+Training exercises and katas in C#. There is a single `katas.sln` created with separate folders and namespaces for each kata.
 
+The solution is targeted for .NET 4.0 and will work with Visual Studio 2013 or 2015.
 
-### .NET Framework
-The solution is targeted for .NET 4.0.
+## Dependencies
+All dependencies are resolved using NuGet.
 
 ### Unit Tests
 Unit tests use
@@ -21,8 +22,15 @@ We will use [Approval tests](http://approvaltests.com/) to create and run charac
 [Moq](https://github.com/moq/moq4) is used for creating mock object and more generally test doubles.
 Version 4.2 is selected as more recent versions depend on .NET 4.5.
 
+## Additional Tools
+The following tools are not required but are recommended.
+
+### ReSharper
+While not required, ReSharper is recommended due to its excellent refactoring and unit test support.
+If you don't have ReSharper installed you can download a 30 day trial version [here](https://www.jetbrains.com/resharper/download/).
+
 ### Markdown
-Markdown support is not built into Visual Studio. To enable better viewing of the kata instructions
+Markdown support is not built into Visual Studio. To enable better viewing of the kata descriptions
 you may want to install the
 [Markdown Editor](https://visualstudiogallery.msdn.microsoft.com/eaab33c3-437b-4918-8354-872dfe5d1bfe)
-plugin.
+plugin. You can install it with the `Tools | Extensions and Updates` menu option.
