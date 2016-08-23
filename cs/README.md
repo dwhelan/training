@@ -1,4 +1,4 @@
-# C#
+# `C#`
 
 Training exercises and katas in C#. There is a single `katas.sln` created with separate folders and namespaces for each kata.
 
@@ -26,7 +26,7 @@ Version 4.2 is selected as more recent versions depend on .NET 4.5.
 The following tools are not required but are recommended.
 
 ### ReSharper
-While not required, ReSharper is recommended due to its excellent refactoring and unit test support.
+ReSharper is recommended due to its excellent refactoring and unit test support.
 If you don't have ReSharper installed you can download a 30 day trial version [here](https://www.jetbrains.com/resharper/download/).
 
 ### Markdown
