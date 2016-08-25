@@ -12,7 +12,7 @@ namespace Katas.GildedRose
         [Test]
         public void Inventory_should_update()
         {
-            var target = new Program()
+            var target = new Inventory()
             {
                 Items = new List<Item>
                 {
