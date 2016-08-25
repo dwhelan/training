@@ -68,6 +68,7 @@
     <Compile Include="Bowling\BowlingGame.cs" />
     <Compile Include="Bowling\BowlingGameTest.cs" />
     <Compile Include="GildedRose\ApprovalTests.cs" />
+    <Compile Include="GildedRose\Item.cs" />
     <Compile Include="GildedRose\Program.cs" />
     <Compile Include="MoqExample\HitchHikerGuide.cs" />
     <Compile Include="MoqExample\HitchHikerGuideTest.cs" />
