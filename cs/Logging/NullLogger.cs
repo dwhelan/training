@@ -1,6 +1,6 @@
-namespace Katas.MoqExample
+namespace Katas.Logging
 {
-    public class NullLogger : ILogger
+    public class NullLogger : Logger
     {
         public void Log(string message)
         {

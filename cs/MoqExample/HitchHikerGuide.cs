@@ -1,10 +1,12 @@
+using Katas.Logging;
+
 namespace Katas.MoqExample
 {
     public class HitchHikerGuide
     {
-        public ILogger Logger { get; }
+        private Logger Logger { get; }
 
-        public HitchHikerGuide(ILogger logger)
+        public HitchHikerGuide(Logger logger)
         {
             Logger = logger;
         }

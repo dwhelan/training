@@ -1,9 +1,10 @@
-﻿using Moq;
+﻿using Katas.Logging;
+using Moq;
 using NUnit.Framework;
 
 namespace Katas.MoqExample
 {
-    public class SpyLogger : ILogger
+    public class SpyLogger : Logger
     {
         public string Message { get; private set; }
 
@@ -21,7 +22,7 @@ namespace Katas.MoqExample
         public void It_should_return_the_answer_to_life_the_universe_and_everything_with_real_logger()
         {
             // Arrange
-            var logger = new Logger();
+            var logger = new RealLogger();
             var guide = new HitchHikerGuide(logger);
 
             // Act
@@ -63,7 +64,7 @@ namespace Katas.MoqExample
         public void It_should_log_when_calculating_with_mock_logger()
         {
             // Arrange
-            var mock = new Mock<ILogger>();
+            var mock = new Mock<Logger>();
             var guide = new HitchHikerGuide(mock.Object);
 
             // Act
@@ -77,7 +78,7 @@ namespace Katas.MoqExample
         public void It_should_log_when_calculating_with_strict_mock_logger()
         {
             // Arrange
-            var mock = new Mock<ILogger>(MockBehavior.Strict);
+            var mock = new Mock<Logger>(MockBehavior.Strict);
             mock.Setup(x => x.Log(It.IsAny<string>()));
             var guide = new HitchHikerGuide(mock.Object);
 
@@ -92,7 +93,7 @@ namespace Katas.MoqExample
         public void It_should_log_something_when_calculating_with_mock_logger()
         {
             // Arrange
-            var mock = new Mock<ILogger>();
+            var mock = new Mock<Logger>();
             var guide = new HitchHikerGuide(mock.Object);
 
             // Act

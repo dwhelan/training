@@ -65,16 +65,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bartender\Notifier.cs" />
     <Compile Include="Bowling\BowlingGame.cs" />
     <Compile Include="Bowling\BowlingGameTest.cs" />
     <Compile Include="GildedRose\ApprovalTests.cs" />
     <Compile Include="GildedRose\Item.cs" />
     <Compile Include="GildedRose\Inventory.cs" />
+    <Compile Include="Logging\Logger.cs" />
+    <Compile Include="Logging\RealLogger.cs" />
+    <Compile Include="Logging\NullLogger.cs" />
+    <Compile Include="Bartender\Bartender.cs" />
+    <Compile Include="Bartender\BartenderTest.cs" />
     <Compile Include="MoqExample\HitchHikerGuide.cs" />
     <Compile Include="MoqExample\HitchHikerGuideTest.cs" />
-    <Compile Include="MoqExample\ILogger.cs" />
-    <Compile Include="MoqExample\Logger.cs" />
-    <Compile Include="MoqExample\NullLogger.cs" />
     <Compile Include="TriviaScorer\TriviaScorer.cs" />
     <Compile Include="TriviaScorer\TriviaScorerTest.cs" />
     <Compile Include="StringCalculator\StringCalculator.cs" />
@@ -89,6 +92,9 @@
     <Content Include="GildedRose\ApprovalTests.Inventory_should_update.approved.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\descriptions\bartender.md">
+      <Link>Bartender\bartender.md</Link>
+    </None>
     <None Include="..\descriptions\bowling.md">
       <Link>Bowling\bowling.md</Link>
     </None>
@@ -149,6 +155,7 @@
     <None Include="..\descriptions\trivia_scorer8.md">
       <Link>TriviaScorer\trivia_scorer8.md</Link>
     </None>
+    <None Include="Bartender\bartender2.md" />
     <None Include="packages.config" />
     <None Include="README.md" />
   </ItemGroup>
