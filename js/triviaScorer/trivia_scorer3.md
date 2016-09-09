@@ -1,0 +1,1 @@
+../../katas/trivia_scorer3.md
