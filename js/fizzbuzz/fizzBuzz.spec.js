@@ -1,4 +1,4 @@
-var fizzBuzz = require('./fizzBuzz').fizzBuzz;
+var fizzBuzz = require('./fizzBuzz').bowling;
 var expect = require("expect");
 
 describe('FizzBuzz', function () {

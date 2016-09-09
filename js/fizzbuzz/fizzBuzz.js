@@ -1,4 +1,4 @@
 var fizzBuzz = function(number){
 };
 
-module.exports.fizzBuzz = fizzBuzz;
+module.exports.bowling = fizzBuzz;

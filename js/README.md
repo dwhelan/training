@@ -6,6 +6,7 @@ These katas require that `node` be installed. Go to the [node site](https://node
 Next, use `npm` to install dependencies for these katas:
 
 ```sh
+$ cd <local "training" folder>/js
 $ npm install
 ```
 
