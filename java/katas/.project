@@ -20,5 +20,36 @@
 			<type>2</type>
 			<locationURI>PARENT-1-WORKSPACE_LOC/descriptions</locationURI>
 		</link>
+		<link>
+			<name>src/com/leanintuit/katas/bowling/bowling.md</name>
+			<type>1</type>
+			<locationURI>KATAS_LOC/bowling.md</locationURI>
+		</link>
+		<link>
+			<name>src/com/leanintuit/katas/fizzbuzz/fizzbuzz.md</name>
+			<type>1</type>
+			<locationURI>KATAS_LOC/fizzbuzz.md</locationURI>
+		</link>
+		<link>
+			<name>src/com/leanintuit/katas/gildedrose/gilded_rose.md</name>
+			<type>1</type>
+			<locationURI>KATAS_LOC/gilded_rose.md</locationURI>
+		</link>
+		<link>
+			<name>src/com/leanintuit/katas/romannumeralcalculator/roman_numeral_calculator.md</name>
+			<type>1</type>
+			<locationURI>KATAS_LOC/roman_numeral_calculator.md</locationURI>
+		</link>
+		<link>
+			<name>src/com/leanintuit/katas/stringcalculator/string_calculator.md</name>
+			<type>1</type>
+			<locationURI>KATAS_LOC/string_calculator.md</locationURI>
+		</link>
 	</linkedResources>
+	<variableList>
+		<variable>
+			<name>KATAS_LOC</name>
+			<value>$%7BPARENT-2-PROJECT_LOC%7D/katas</value>
+		</variable>
+	</variableList>
 </projectDescription>
