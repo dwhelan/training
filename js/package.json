@@ -16,6 +16,10 @@
     "jasmine": "node_modules/jasmine-node/bin/jasmine-node .",
     "mocha": "node_modules/mocha/bin/mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwhelan/training"
+  },
   "author": "Declan Whelan",
   "license": "MIT"
 }
