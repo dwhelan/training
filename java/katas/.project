@@ -16,6 +16,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>README.md</name>
+			<type>1</type>
+			<locationURI>PARENT-5-ECLIPSE_HOME/code/training/java/README.md</locationURI>
+		</link>
+		<link>
 			<name>src/com/leanintuit/katas/bowling/bowling.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/bowling.md</locationURI>
@@ -79,35 +84,46 @@
 			<name>src/com/leanintuit/katas/triviascorer/trivia_scorer2.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/trivia_scorer2.md</locationURI>
-		</link>		<link>
+		</link>
+		<link>
 			<name>src/com/leanintuit/katas/triviascorer/trivia_scorer3.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/trivia_scorer3.md</locationURI>
-		</link>		<link>
+		</link>
+		<link>
 			<name>src/com/leanintuit/katas/triviascorer/trivia_scorer4.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/trivia_scorer4.md</locationURI>
-		</link>		<link>
+		</link>
+		<link>
 			<name>src/com/leanintuit/katas/triviascorer/trivia_scorer5.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/trivia_scorer5.md</locationURI>
-		</link>		<link>
+		</link>
+		<link>
 			<name>src/com/leanintuit/katas/triviascorer/trivia_scorer6.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/trivia_scorer6.md</locationURI>
-		</link>		<link>
+		</link>
+		<link>
 			<name>src/com/leanintuit/katas/triviascorer/trivia_scorer7.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/trivia_scorer7.md</locationURI>
-		</link>		<link>
+		</link>
+		<link>
 			<name>src/com/leanintuit/katas/triviascorer/trivia_scorer8.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/trivia_scorer8.md</locationURI>
-		</link>	</linkedResources>
+		</link>
+	</linkedResources>
 	<variableList>
 		<variable>
 			<name>KATAS_LOC</name>
-			<value>$%7BPARENT-2-PROJECT_LOC%7D/katas</value>
+			<value>$%7BTRAINING_LOC%7D/katas</value>
+		</variable>
+		<variable>
+			<name>TRAINING_LOC</name>
+			<value>$%7BPARENT-1-WORKSPACE_LOC%7D</value>
 		</variable>
 	</variableList>
 </projectDescription>
