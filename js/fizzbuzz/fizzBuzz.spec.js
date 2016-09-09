@@ -1,4 +1,4 @@
-require('./fizzbuzz');
+var fizzBuzz = require('./fizzBuzz').fizzBuzz;
 var expect = require("expect");
 
 describe('FizzBuzz', function () {
