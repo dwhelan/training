@@ -2,9 +2,18 @@
 
 This repository contains training exercises and katas for the LeanIntuit Agile Engineering training course.
 
-To use the katas please following the links below for the language of your choice:
+To read more abour the katas please following the links below for the language of your choice:
 
  * [C#](cs)
  * [Java](java)
- * [Javascript][js]
- 
+ * [Javascript](js)
+
+## Gettting Started
+Download the files in the repository:
+
+```
+git clone https://github.com/dwhelan/training.git
+```
+*If you don't use git then click **Clone or Download** on this page, select **Download Zip** and then unzip the files.*
+
+Then follow the instructions in the `README.MD` file in the language folder of your choice.
