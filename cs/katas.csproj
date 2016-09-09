@@ -92,67 +92,67 @@
     <Content Include="GildedRose\ApprovalTests.Inventory_should_update.approved.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\descriptions\bartender.md">
+    <None Include="..\katas\bartender.md">
       <Link>Bartender\bartender.md</Link>
     </None>
-    <None Include="..\descriptions\bowling.md">
+    <None Include="..\katas\bowling.md">
       <Link>Bowling\bowling.md</Link>
     </None>
-    <None Include="..\descriptions\fizzbuzz.md">
+    <None Include="..\katas\fizzbuzz.md">
       <Link>Fizzbuzz\fizzbuzz.md</Link>
     </None>
-    <None Include="..\descriptions\fizzbuzz_bonus.md">
+    <None Include="..\katas\fizzbuzz_bonus.md">
       <Link>Fizzbuzz\fizzbuzz_bonus.md</Link>
     </None>
-    <None Include="..\descriptions\gilded_rose.md">
+    <None Include="..\katas\gilded_rose.md">
       <Link>GildedRose\gilded_rose.md</Link>
     </None>
-    <None Include="..\descriptions\roman_numeral_calculator.md">
+    <None Include="..\katas\roman_numeral_calculator.md">
       <Link>RomanNumeralCalculator\roman_numeral_calculator.md</Link>
     </None>
-    <None Include="..\descriptions\string_calculator.md">
+    <None Include="..\katas\string_calculator.md">
       <Link>StringCalculator\string_calculator.md</Link>
     </None>
-    <None Include="..\descriptions\string_calculator2.md">
+    <None Include="..\katas\string_calculator2.md">
       <Link>StringCalculator\string_calculator2.md</Link>
     </None>
-    <None Include="..\descriptions\string_calculator3.md">
+    <None Include="..\katas\string_calculator3.md">
       <Link>StringCalculator\string_calculator3.md</Link>
     </None>
-    <None Include="..\descriptions\string_calculator4.md">
+    <None Include="..\katas\string_calculator4.md">
       <Link>StringCalculator\string_calculator4.md</Link>
     </None>
-    <None Include="..\descriptions\string_calculator5.md">
+    <None Include="..\katas\string_calculator5.md">
       <Link>StringCalculator\string_calculator5.md</Link>
     </None>
-    <None Include="..\descriptions\string_calculator6.md">
+    <None Include="..\katas\string_calculator6.md">
       <Link>StringCalculator\string_calculator6.md</Link>
     </None>
-    <None Include="..\descriptions\string_calculator7.md">
+    <None Include="..\katas\string_calculator7.md">
       <Link>StringCalculator\string_calculator7.md</Link>
     </None>
-    <None Include="..\descriptions\trivia_scorer.md">
+    <None Include="..\katas\trivia_scorer.md">
       <Link>TriviaScorer\trivia_scorer.md</Link>
     </None>
-    <None Include="..\descriptions\trivia_scorer2.md">
+    <None Include="..\katas\trivia_scorer2.md">
       <Link>TriviaScorer\trivia_scorer2.md</Link>
     </None>
-    <None Include="..\descriptions\trivia_scorer3.md">
+    <None Include="..\katas\trivia_scorer3.md">
       <Link>TriviaScorer\trivia_scorer3.md</Link>
     </None>
-    <None Include="..\descriptions\trivia_scorer4.md">
+    <None Include="..\katas\trivia_scorer4.md">
       <Link>TriviaScorer\trivia_scorer4.md</Link>
     </None>
-    <None Include="..\descriptions\trivia_scorer5.md">
+    <None Include="..\katas\trivia_scorer5.md">
       <Link>TriviaScorer\trivia_scorer5.md</Link>
     </None>
-    <None Include="..\descriptions\trivia_scorer6.md">
+    <None Include="..\katas\trivia_scorer6.md">
       <Link>TriviaScorer\trivia_scorer6.md</Link>
     </None>
-    <None Include="..\descriptions\trivia_scorer7.md">
+    <None Include="..\katas\trivia_scorer7.md">
       <Link>TriviaScorer\trivia_scorer7.md</Link>
     </None>
-    <None Include="..\descriptions\trivia_scorer8.md">
+    <None Include="..\katas\trivia_scorer8.md">
       <Link>TriviaScorer\trivia_scorer8.md</Link>
     </None>
     <None Include="Bartender\bartender2.md" />
