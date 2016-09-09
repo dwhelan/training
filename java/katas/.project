@@ -21,6 +21,11 @@
 			<locationURI>PARENT-5-ECLIPSE_HOME/code/training/java/README.md</locationURI>
 		</link>
 		<link>
+			<name>General/.gitignore</name>
+			<type>1</type>
+			<locationURI>TRAINING_LOC/.gitignore</locationURI>
+		</link>
+		<link>
 			<name>src/com/leanintuit/katas/bowling/bowling.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/bowling.md</locationURI>
