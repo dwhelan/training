@@ -1,43 +1,42 @@
-# Javascript Training Module
+# Getting Started
 
-## Local Dev (Mac)
+These katas require that `node` be installed. Go to the [node site](https://nodejs.org/) and following installed instructions for your operating system.
+`npm`, the node package manager, will be installed when your install `node`.
 
-On a Mac you'll already have PHP installed locally. You can use PHP's local server to serve the CI folder after cloning this repo.
+Next, use `npm` to install dependencies for these katas:
 
 ```sh
-$ git clone git@github.com:telusdigital/developer-training-module.git
-$ cd developer-training-module
 $ npm install
-
-$ php -S localhost:8080 -t ci
 ```
 
-## Build SCSS
+# Running Tests
 
-If you need to build CSS you can do that from the root
+## Command Line
+You can run the tests using [Jasmine](http://jasmine.github.io/).
 
 ```sh
-$ npm run build
+$ jasmine
 ```
-This will build CSS to the `/ci/assets/css` folder. The source files are stores in `/src/scss/`
 
-## Running Tests
-
-### Javascript tests
-
-Karama and Jasmine is installed with `npm install`. From your root run:
+or [Mocha](https://github.com/mochajs/mocha)
 
 ```sh
-$ npm run test
+$ mocha
 ```
 
-The tests are stored in the `/ci/assets/js/test/` folder. Karma will load any file that ends in `.spec.js`
-
-### PHP tests
-
-PHP tests need to be run from the `/ci/application/tests/` folder.
+If you prefer, you can run these uing `npm`:
 
 ```sh
-$ cd ci/application/tests
-$ php phpunit.phar
+$ npm run jasmine
+$ npm run mocha
 ```
+
+## IDE
+You can also run tests via your IDE.
+
+### WebStorm
+[WebStorm](https://www.jetbrains.com/webstorm/specials/webstorm/webstorm.htm) is a great IDE with a free 30 day trial.
+Out of the box, WebStorm provides IDE integration for Mocha, but not Jasmine. In this project you can still run Jamsine
+tests through WebStorm via the `Jasmine` run configuration but this will run in a terminal window rather than use WebStorm unit test view.
+
+See [Enabling JavaScript Unit Testing Support](https://www.jetbrains.com/help/webstorm/2016.2/enabling-javascript-unit-testing-support.html) for details on configuring WebsStorm.
