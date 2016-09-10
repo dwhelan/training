@@ -1,4 +1,4 @@
-var calculator = require('./stringCalculator').calculator;
+var calculate = require('./stringCalculator');
 var expect = require("expect");
 
 describe('String Calculator', function () {

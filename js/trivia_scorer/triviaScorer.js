@@ -1,4 +1,2 @@
-var scorer = function(number){
+module.exports = function(answers) {
 };
-
-module.exports.scorer = scorer;

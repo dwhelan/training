@@ -1,4 +1,4 @@
-var scorer = require('./triviaScorer').scorer;
+var scorer = require('./triviaScorer');
 var expect = require("expect");
 
 describe('Trivia Scorer', function () {

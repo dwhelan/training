@@ -1,12 +1,12 @@
 require('approvals').mocha();
 
-var gildedRose = require('./gilded_rose');
+var GildedRose = require('./gilded_rose');
 
 describe("Gilded Rose", function() {
-  it("items", function() {
+  specify("update_quality", function() {
+    var gildedRose = new GildedRose();
     var items = gildedRose.items;
 
-    items.length = 0;
     items.push(new gildedRose.Item("+5 Dexterity Vest", 10, 20));
     items.push(new gildedRose.Item("Aged Brie", 2, 50 ));
     items.push(new gildedRose.Item("Aged Brie", 0, 50 ));
