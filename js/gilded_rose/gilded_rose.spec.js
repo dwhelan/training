@@ -1,5 +1,5 @@
 require('approvals').mocha();
-
+var os = require('os');
 var GildedRose = require('./gilded_rose');
 
 describe("Gilded Rose", function() {
@@ -25,6 +25,7 @@ describe("Gilded Rose", function() {
     gildedRose.update_quality();
 
     var strings = JSON.stringify(items).replace(/[^ \-:,\w\s]/g, "").replace(/,name/g, '\nname');
-    this.verify(strings + "\n");
+
+    this.verify(strings + os.EOL);
   });
 });
