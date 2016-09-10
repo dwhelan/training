@@ -13,13 +13,16 @@ $ npm install
 # Running Tests
 
 ## Command Line
-You can run the tests using [Jasmine](http://jasmine.github.io/).
+You can run the tests using [Jasmine](http://jasmine.github.io/):
 
 ```sh
 $ jasmine
 ```
 
-or [Mocha](https://github.com/mochajs/mocha)
+**Note:**: The approvals library appears to be incompatible with the latest `Jasmine` and as a result the Gilded Rose kata only runs with Mocha support.
+If you run `jasmine` it will exclude the gilded rose kata.
+
+or [Mocha](https://github.com/mochajs/mocha)"
 
 ```sh
 $ mocha

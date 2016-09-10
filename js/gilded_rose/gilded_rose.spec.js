@@ -25,6 +25,6 @@ describe("Gilded Rose", function() {
     gildedRose.update_quality();
 
     var strings = JSON.stringify(items).replace(/[^ \-:,\w\s]/g, "").replace(/,name/g, '\nname');
-    this.verify(strings);
+    this.verify(strings + "\n");
   });
 });

@@ -1,11 +1,7 @@
 {
   "spec_dir": ".",
   "spec_files": [
-    "*/*[sS]pec.js"
-  ],
-  "helpers": [
-    "helpers/**/*.js"
-  ],
-  "stopSpecOnExpectationFailure": false,
-  "random": false
+    "!(gilded_rose)/*.spec.js",
+    "solutions/!(gilded_rose)/*.spec.js"
+  ]
 }
