@@ -1,1 +1,1 @@
-../../katas/string_calculator4.md
+../../katas/string_calculator3.md

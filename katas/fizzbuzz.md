@@ -6,19 +6,39 @@ Fizzbuzz is a group word game for children to teach them about division.
 Players take turns to count incrementally, replacing any number divisible by 3 with the word "fizz", any number divisible by 5 with the word "buzz", and any number divisible by 3 and 5 with the word "fizzbuzz". 
 
 ## Kata
-Create a `FizzBuzz` class with a `valueFor(number : int) : string` method.
+Create a `fizBuzz(number : int) : string` method that returns a string according to the rules of Fizzbuzz:
 
-It should return a string according to the rules of Fizzbuzz:
-
-```
-game = new FizzBuzz();
-
-game.valueFor(1);  // "1"
-game.valueFor(2);  // "2"
-game.valueFor(3);  // "fizz"
-game.valueFor(4);  // "4"
-game.valueFor(5);  // "buzz"
-game.valueFor(6);  // "fizz"
-...
-game.valueFor(15); // "fizzbuzz"
-```
+ <table>
+    <tr>
+        <td>Input</td>
+        <td>Output</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>"1"</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>"2"</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>"fizz"</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>"4"</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>"buzz"</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>"fizzbuzz"</td>
+    </tr>
+    <tr>
+        <td>...</td>
+        <td>...</td>
+    </tr>
+</table>

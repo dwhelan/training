@@ -10,7 +10,7 @@ A strike is when the player knocks down all 10 pins on his first try. The bonus 
 In the tenth frame a player who rolls a spare or strike is allowed to roll the extra balls to complete the frame. However no more than three balls can be rolled in the tenth frame.
 
 ## Kata
-Write a class named `BowlingGame` that has two methods, `roll()` and `score() : int`.
+Write a some code that has two methods, `roll()` and `score() : int`.
 
 `roll(pins : int)` is called each time the player rolls a ball. The argument is the number of pins knocked down.
 

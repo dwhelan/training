@@ -43,4 +43,4 @@ You can also run tests via your IDE.
 Out of the box, WebStorm provides IDE integration for Mocha, but not Jasmine. In this project you can still run Jamsine
 tests through WebStorm via the `Jasmine` run configuration but this will run in a terminal window rather than use WebStorm unit test view.
 
-See [Enabling JavaScript Unit Testing Support](https://www.jetbrains.com/help/webstorm/2016.2/enabling-javascript-unit-testing-support.html) for details on configuring WebsStorm.
+To view the kata descriptions it is recommended that you install the 'Markdown' plugin. Refer to the [Enabling and Disabling Plugins](https://www.jetbrains.com/help/webstorm/2016.2/enabling-and-disabling-plugins.html) if you need help with this.

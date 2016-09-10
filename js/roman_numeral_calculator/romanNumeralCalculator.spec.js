@@ -1,4 +1,4 @@
-var calculator = require('./romanNumeralCalculator').calculator;
+var calculate = require('./romanNumeralCalculator');
 var expect = require("expect");
 
 describe('Roman Numeral Calculator', function () {

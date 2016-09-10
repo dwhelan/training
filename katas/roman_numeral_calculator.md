@@ -109,14 +109,25 @@ For example:
 1984 => 1000 + 900 + 80 + 4 => "M" + "CM" + "LXXX" + "IV" => "MCMLXXXIV"
 
 ## Kata
-Create a `RomanNumeralCalculator` class with a `convert(input : int) : string` method.
-
-It should convert the input arabic number to its roman numeral equivalent.
+Create a methd `calculate(input : int) : string` method that converts the input arabic number to its roman numeral equivalent.
 
 Some examples:
 
-```
-convert(1);    // "I"
-convert(9);    // "IX"
-convert(1984); // "MCMLXXXIV"
-```
+<table>
+    <tr>
+        <td>Input</td>
+        <td>Output</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>"I"</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>"IX"</td>
+    </tr>
+    <tr>
+        <td>1984</td>
+        <td>"MCMLXXXIV"</td>
+    </tr>
+</table>
