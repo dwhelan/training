@@ -1,12 +1,9 @@
-package com.leanintuit.katas.gildedrose;
+package gildedrose;
 
 import org.approvaltests.Approvals;
 import org.approvaltests.reporters.DiffReporter;
 import org.approvaltests.reporters.UseReporter;
 import org.junit.Test;
-
-import com.leanintuit.katas.gildedrose.GildedRose;
-import com.leanintuit.katas.gildedrose.Item;
 
 public class GildedRoseTest {
 

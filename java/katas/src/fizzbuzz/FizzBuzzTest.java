@@ -1,4 +1,4 @@
-package com.leanintuit.katas.fizzbuzz;
+package fizzbuzz;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;

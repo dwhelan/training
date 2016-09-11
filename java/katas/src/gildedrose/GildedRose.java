@@ -1,4 +1,4 @@
-package com.leanintuit.katas.gildedrose;
+package gildedrose;
 
 class GildedRose {
     Item[] items;

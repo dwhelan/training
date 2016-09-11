@@ -1,4 +1,4 @@
-package com.leanintuit.katas.gildedrose;
+package gildedrose;
 
 public class Item {
     public String name;
