@@ -20,25 +20,28 @@ npm install
 ```sh
 npm test bowling
 ```
-You can also run your tests with code coverage:
+If you are on Windows you may see the error `File sizes do not match` because of line ending differences. The fix is delete the `Gilded_Rose.should_update_items.approved.txt` file and rename the `Gilded_Rose.should_update_items.received.txt` file to `Gilded_Rose.should_update_items.approved.txt`.
+
+On non-Windows systems you can also run your tests with code coverage:
 
 ```sh
 npm run coverage gilded_rose
 ```
 Open the Coverage report at [coverage/lcov-report/index.html](coverage/lcov-report/index.html) with your browser.
+
 ## Jasmine
 Running tests with [Jasmine](http://jasmine.github.io/) works with some caveats.
 
 First of all, it has been configured to run all specs in the `js` folder, so you can't specify the tests for individual katas.
  
-Next, the Gilded Rose kata does run as expected to an incompatability with the approvals library (it does not calculate the correct file name and looks for files with nothing before the `.approved.txt` or `received.txt`).
+Next, the Gilded Rose kata does run as expected due to an incompatability with the approvals library (it does not calculate the correct file name and looks for files with nothing before the `.approved.txt` or `received.txt`).
 
 To run the tests with Jamsine:
 
 ```sh
 npm run jasmine
 ```
-Also, when you first run, you may will see an error like `Approved file does not exist`. In the `gilded_rose` folder delete the `.approved.txt` file and rename the `.received.txt` file to `.approved.txt`.
+Also, when you first run, you will see an error like `Approved file does not exist`. In the `gilded_rose` folder delete the `.approved.txt` file and rename the `.received.txt` file to `.approved.txt` and re-run.
 
 ## Webstorm IDE
 [WebStorm](https://www.jetbrains.com/webstorm/specials/webstorm/webstorm.htm) is a great IDE with a free 30 day trial.
