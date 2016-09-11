@@ -1,7 +1,5 @@
 {
   "spec_dir": ".",
   "spec_files": [
-    "!(gilded_rose)/*.spec.js",
-    "solutions/!(gilded_rose)/*.spec.js"
   ]
 }

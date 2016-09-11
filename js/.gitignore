@@ -1,6 +1,7 @@
 /.idea
 /coverage
 /node_modules
+/gilded_rose/.approved.txt
 
 .DS_Store
 /solutions/

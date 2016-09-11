@@ -15,19 +15,25 @@ npm install
 ```
 
 # Running Tests
-[Mocha](https://github.com/mochajs/mocha) is the recommended test tool for these katas because it works for all of them. You specify the test you want to run on the command line.
+[Mocha](https://github.com/mochajs/mocha) is used as the test framework for these katas. You specify the test(s) you want to run on the command line:
 
 ```sh
-npm run mocha bowling/bowling.spec.js
+npm test bowling
 ```
+
 ## Jasmine
-Running tests with [Jasmine](http://jasmine.github.io/) works with some important caveats:
- - the Gilded Rose kata does run due to an incompatability with the approvals library
- - with Windows jasmine does not seem to pick up any of the spec files
+Running tests with [Jasmine](http://jasmine.github.io/) works with some caveats.
+
+First of all, it has been configured to run all specs in the `js` folder, so you can't specify the tests for individual katas.
+ 
+Next, the Gilded Rose kata does run as expected to an incompatability with the approvals library (it does not calculate the correct file name and looks for files with nothing before the `.approved.txt` or `received.txt`).
+
+To run the tests with Jamsine:
 
 ```sh
-npm run jasmine bowling/bowling.spec.js
+npm run jasmine
 ```
+Also, when you first run, you may will an error like `Approved file does not exist`. In the `gilded_rose` folder delete the `.approved.txt` file and rename the `.received.txt` file to `.approved.txt`.
 
 ## Webstorm IDE
 [WebStorm](https://www.jetbrains.com/webstorm/specials/webstorm/webstorm.htm) is a great IDE with a free 30 day trial.

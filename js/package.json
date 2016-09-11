@@ -11,8 +11,8 @@
     "mocha": "^3.0.0"
   },
   "scripts": {
-    "jasmine": "node node_modules/jasmine-node/bin/jasmine-node",
-    "mocha": "node node_modules/mocha/bin/mocha",
+    "jasmine": "node node_modules/jasmine-node/bin/jasmine-node .",
+    "test": "node node_modules/mocha/bin/mocha",
     "coverage": "node node_modules/.bin/istanbul cover -x '**/*.spec.js' _mocha"
   },
   "repository": {
