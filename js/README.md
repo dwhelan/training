@@ -20,7 +20,12 @@ npm install
 ```sh
 npm test bowling
 ```
+You can also run your tests with code coverage:
 
+```sh
+npm run coverage gilded_rose
+```
+Open the Coverage report at [coverage/lcov-report/index.html](coverage/lcov-report/index.html) with your browser.
 ## Jasmine
 Running tests with [Jasmine](http://jasmine.github.io/) works with some caveats.
 
@@ -33,7 +38,7 @@ To run the tests with Jamsine:
 ```sh
 npm run jasmine
 ```
-Also, when you first run, you may will an error like `Approved file does not exist`. In the `gilded_rose` folder delete the `.approved.txt` file and rename the `.received.txt` file to `.approved.txt`.
+Also, when you first run, you may will see an error like `Approved file does not exist`. In the `gilded_rose` folder delete the `.approved.txt` file and rename the `.received.txt` file to `.approved.txt`.
 
 ## Webstorm IDE
 [WebStorm](https://www.jetbrains.com/webstorm/specials/webstorm/webstorm.htm) is a great IDE with a free 30 day trial.

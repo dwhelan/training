@@ -54,9 +54,5 @@ module.exports = function () {
         }
       }
     }
-  }};
-
-  //
-  // module.exports.update_quality = update_quality;
-  // module.exports.items = items;
-  // module.exports.Item = Item;
+  }
+};
