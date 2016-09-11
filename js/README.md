@@ -1,12 +1,14 @@
-# Getting Started
+#JavaScript
+The javascript code is ECMAScript 5.1.
 
-## Install Node.js
+## Getting Started
+### Install Node.js
 These katas require that `Node.js` be installed. Go to the [node site](https://nodejs.org/) and following the install instructions for your operating system.
 `npm`, the node package manager, will be installed when your install `Node.js`.
 
 If you are running on Windows you will need to restart your computer in order for `Node.js` to work.
 
-## Install Dependencies
+### Install Dependencies
 Next, use `npm` to install dependencies for these katas:
 
 ```sh
@@ -14,7 +16,7 @@ cd <local "training" folder>/js
 npm install
 ```
 
-# Running Tests
+## Running Tests
 [Mocha](https://github.com/mochajs/mocha) is used as the test framework for these katas. You specify the test(s) you want to run on the command line:
 
 ```sh
@@ -29,7 +31,7 @@ npm run coverage gilded_rose
 ```
 Open the Coverage report at [coverage/lcov-report/index.html](coverage/lcov-report/index.html) with your browser.
 
-## Jasmine
+### Jasmine
 Running tests with [Jasmine](http://jasmine.github.io/) works with some caveats.
 
 First of all, it has been configured to run all specs in the `js` folder, so you can't specify the tests for individual katas.
@@ -59,7 +61,7 @@ On Windows you do this by entering `Ctrl+Alt+S`, selecting `Node.js and NPM` and
 
 ![logo](images/WebStorm-enable-nodejs-win.png)
 
-## Running Tests
+### Running Tests
 Right click on any `spec.js` file and select "Run".
 
 ### Viewing Markdown Files
