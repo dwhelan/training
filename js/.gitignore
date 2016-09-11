@@ -6,3 +6,5 @@
 .DS_Store
 /solutions/
 /*.log
+
+*.received.txt
