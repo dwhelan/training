@@ -1,7 +1,7 @@
-module.exports = function(){
-  this.roll = function (number) {
+module.exports = function() {
+  this.roll = function(pins) {
   };
 
-  this.score = function () {
+  this.score = function() {
   };
 };
