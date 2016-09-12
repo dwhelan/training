@@ -1,4 +1,7 @@
-var bowling = function(number){
-};
+module.exports = function(){
+  this.roll = function (number) {
+  };
 
-module.exports.bowling = bowling;
+  this.score = function () {
+  };
+};
