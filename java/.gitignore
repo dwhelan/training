@@ -15,5 +15,3 @@ RemoteSystemsTempFiles/
 katas/bin
 
 *.swp
-
-*.received.txt
