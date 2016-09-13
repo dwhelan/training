@@ -7,22 +7,22 @@ The solution is targeted for .NET 4.0 and will work with Visual Studio 2013 or 2
 ## Dependencies
 All dependencies are resolved using NuGet.
 
-### Unit Tests
+### Unit tests
 Unit tests use
 [NUnit](http://www.nunit.org/) with [Fluent Assertions](http://www.fluentassertions.com/).
 
-### Characterization Tests
+### Characterization tests
 Michael Feathers coined the term
 [characterization tests](https://en.wikipedia.org/wiki/Characterization_test)
 to refer to tests that capture how existing code works.
 This is particularly useful when working with legacy code.
 We will use [Approval tests](http://approvaltests.com/) to create and run characterization tests.
 
-### Mock Objects
+### Mock objects
 [Moq](https://github.com/moq/moq4) is used for creating mock object and more generally test doubles.
 Version 4.2 is selected as more recent versions depend on .NET 4.5.
 
-## Additional Tools
+## Additional tools
 The following tools are not required but are recommended.
 
 ### ReSharper

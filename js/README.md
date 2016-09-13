@@ -16,7 +16,7 @@ cd <local "training" folder>/js
 npm install
 ```
 
-## Running Tests
+## Running tests
 [Mocha](https://github.com/mochajs/mocha) is used as the test framework for these katas. You specify the test(s) you want to run on the command line:
 
 ```sh
