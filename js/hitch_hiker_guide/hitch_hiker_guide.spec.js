@@ -19,7 +19,7 @@ describe('The meaning of life', function () {
       expect(answer).toBe("42");
     });
 
-    it("with a stub logger we can test the answer", function () {
+    it("with a null logger we can test the answer", function () {
       var guide = new Guide(new NullLogger());
 
       var answer = guide.answer();
@@ -29,7 +29,7 @@ describe('The meaning of life', function () {
   });
 
   describe('logging', function () {
-    it("with a custom stub we can test logging", function () {
+    it("with a custom spy we can test logging", function () {
       var SpyLogger = function () {
         this.message = "";
 
@@ -47,23 +47,23 @@ describe('The meaning of life', function () {
 
     it("with sinon stub logger we can test logging with less fuss", function () {
       var logger = new Logger();
-      var spy = sinon.stub(logger, "log");
+      var log = sinon.stub(logger, "log");
       var guide = new Guide(logger);
 
       guide.answer();
 
-      sinon.assert.calledWith(spy, "Calculating the meaning of life, the universe and everything");
+      sinon.assert.calledWith(log, "Calculating the meaning of life, the universe and everything");
     });
 
     it("with sinon mock logger we can test logging with less fuss", function () {
       var logger = new Logger();
-      var mock = sinon.mock(logger, "log");
+      var log = sinon.mock(logger, "log");
       var guide = new Guide(logger);
-      mock.expects("log").withArgs("Calculating the meaning of life, the universe and everything");
+      log.expects("log").withArgs("Calculating the meaning of life, the universe and everything");
 
       guide.answer();
 
-      mock.verify();
+      log.verify();
     });
   });
 });
