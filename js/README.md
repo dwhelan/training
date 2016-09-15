@@ -1,4 +1,4 @@
-#JavaScript
+# JavaScript
 The javascript code is ECMAScript 5.1.
 
 ## Getting Started
@@ -35,7 +35,7 @@ Open the Coverage report at [coverage/lcov-report/index.html](coverage/lcov-repo
 Running tests with [Jasmine](http://jasmine.github.io/) works with some caveats.
 
 First of all, it has been configured to run all specs in the `js` folder, so you can't specify the tests for individual katas.
- 
+
 Next, the Gilded Rose kata does run as expected due to an incompatability with the approvals library (it does not calculate the correct file name and looks for files with nothing before the `.approved.txt` or `received.txt`).
 
 To run the tests with Jamsine:
@@ -45,30 +45,12 @@ npm run jasmine
 ```
 Also, when you first run, you will see an error like `Approved file does not exist`. In the `gilded_rose` folder delete the `.approved.txt` file and rename the `.received.txt` file to `.approved.txt` and re-run.
 
-## Webstorm IDE
-[WebStorm](https://www.jetbrains.com/webstorm/specials/webstorm/webstorm.htm) is a great IDE with a free 30 day trial.
-Out of the box, WebStorm provides IDE integration for Mocha, but not Jasmine. In this project you can still run Jamsine
-tests through WebStorm via the `Jasmine` run configuration but this will run in a terminal window rather than use WebStorm unit test view.
-
-### Enable Node.js
-To run tests from the IDE you may need to enable `Node.js` if it is not already enabled.
-
-On a Mac you do this by pressing **&#8984;,** and then selecting `Node.js and NPM` and press the `Enable` button if you see that Node.js is not enabled. The window should like the shown below:
-
-![logo](images/WebStorm-enable-nodejs-mac.png)
-
-On Windows you do this by entering `Ctrl+Alt+S`, selecting `Node.js and NPM` and press the `Enable` button if you see that Node.js is not enabled. The window should like the one shown below:
-
-![logo](images/WebStorm-enable-nodejs-win.png)
-
-### Running Tests
-Right click on any `spec.js` file and select "Run".
-
-### Viewing Markdown Files
-To view the kata descriptions it is recommended that you install the 'Markdown Support' plugin. Refer to the [Enabling and Disabling Plugins](https://www.jetbrains.com/help/webstorm/2016.2/enabling-and-disabling-plugins.html) if you need help with this.
+# IDE suggestions
+For some tips on using some popular IDEs you might to check out:
+* [WebStorm](WebStorm.md)
+* [Atom](Atom.md)
 
 # To do
-* write up suggestions for using Atom
-* DRY up `var expect = require("expect");
+* DRY up `var expect = require("expect");`
 * get working with Jasmine
-* set up travis CI builds with differnt versions of node
+* set up travis CI builds with different versions of node
