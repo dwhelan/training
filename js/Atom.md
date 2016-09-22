@@ -8,7 +8,7 @@ Go to the `mocha` package settings and change the `Spec Directory` setting to th
 folder name of the kata you are working on e.g. `bowling`.
 
 ## Viewing Markdown Files
-Viewing mark down is built-in. All you need to do is enter `ctrl+shift+M`.
+Viewing mark down is built-in. All you need to do is enter `ctrl-shift-M`.
 
 ## Refactoring
-You can install the `refactor` and `js-refactor` packagea. This will provide a smart `rename` refactoring for variables and methods via `ctrl+alt+r`.
+You can install the `refactor` and `js-refactor` packagea. This will provide a smart `rename` refactoring for variables and methods via `ctrl-alt-r`.
