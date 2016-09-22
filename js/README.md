@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dwhelan/training.svg?branch=master)](https://travis-ci.org/dwhelan/training)
+
 # JavaScript
 The javascript code is ECMAScript 5.1.
 
@@ -7,6 +9,20 @@ These katas require that `Node.js` be installed. Go to the [node site](https://n
 `npm`, the node package manager, will be installed when your install `Node.js`.
 
 If you are running on Windows you will need to restart your computer in order for `Node.js` to work.
+
+The following ruby `Node.js` versions are supported:
+- 3.x
+- 4.x
+- 5.x
+- 6.0
+- 6.1
+- 6.2
+- 6.3
+- 6.4
+- 6.5
+- 6.6
+
+Other versions will likely work but have not been tested.
 
 ### Install Dependencies
 Next, use `npm` to install dependencies for these katas:
