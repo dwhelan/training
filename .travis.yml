@@ -6,4 +6,4 @@ node_js:
   - 5.11
   - 6.0
   - 6.1
-script: cd js && npm test
+before_script: cd js && npm install
