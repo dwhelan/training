@@ -12,6 +12,7 @@ node_js:
   - 6.6
   - nodejs
 before_script: cd js && npm install
+script: npm test  bowling fizzbuzz gilded_rose bartender hitch_hiker_guide roman_numeral_calculator string_calculator trivia_scorer
 env:
   - CXX=g++-4.8
 addons:
