@@ -3,8 +3,8 @@
 # JavaScript
 The javascript code is ECMAScript 5.1.
 
-## Getting Started
-### Install Node.js
+## Getting started
+### Install node.js
 These katas require that `Node.js` be installed. Go to the [node site](https://nodejs.org/) and following the install instructions for your operating system.
 `npm`, the node package manager, will be installed when your install `Node.js`.
 
@@ -24,7 +24,7 @@ The following ruby `Node.js` versions are supported:
 
 Other versions will likely work but have not been tested.
 
-### Install Dependencies
+### Install dependencies
 Next, use `npm` to install dependencies for these katas:
 
 ```sh
@@ -69,4 +69,6 @@ For some tips on using some popular IDEs you might to check out:
 # To do
 * DRY up `var expect = require("expect");`
 * get working with Jasmine
-* set up travis CI builds with different versions of node
+* create an ecmascript 6 version of the katas
+* fix missing bartender.md => or simplify how kata descriptions are done
+
