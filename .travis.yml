@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - 3
+  - 4
+  - 5
+  - 6.0
+  - 6.1
+  - 6.2
+  - 6.3
+  - 6.4
+  - 6.5
+  - 6.6
+before_script: cd js && npm install
+script: npm test  bowling fizzbuzz gilded_rose bartender hitch_hiker_guide roman_numeral_calculator string_calculator trivia_scorer
+env:
+  - CXX=g++-4.8
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8

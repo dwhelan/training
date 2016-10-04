@@ -1,23 +1,20 @@
-# Bartender
+# Bartender Bonus
 
 ## Background
-This kata provides practice in using test doubles.
+This kata provides a more complex mocking challenge by handling exceptions.
+
+It turns out that we want the manager to be notified if the logging fails when a
+drink is ordered from the bartender.
 
 ## Kata
-Update the `Bartender` class so it logs the name of the drink being ordered via the
-`Logger.Log(message :string)` method. You will need to figure out how to pass in a `Logger` instance to the `Bartender` under test.
+Update the `Bartender` class so it notifies the manager via the
+`Notifier.Alert(message :string)` method when logging has failed.
+You will need to figure out how to pass in a `Notifier` instance to
+the `Bartender` under test.
 
-For example, calling `bartender.Order("mockito")` should cause a the logger you
-provided to the `Bartender` to be called with the string `"Making a mockito"`.
+For example, calling `bartender.makeADrink("mockito")` when the logger throws an
+exception should cause the `Notifier.Alert` method to be called
+with the string `"Logging failed!"`.
 
-As you add the logging support make sure that all existing tests pass.
-
-Remember to drive the new code with failing tests.
-
-### Use a spy logger
-Create a spy version of `Logger` that saves the message that was passed to its `Log()`
-method. In your test assert that the message saved in the sky is correct.
-
-### Use a mock logger
-Create a mock version of `Logger` and use the mocking library functionality to assert that
-the  `Log()` method is called with the right `message` parameter.
+Write a test to ensure that `Notifier.Alert()` is **not** called when the logger
+behaves normally and does not throw an exception.

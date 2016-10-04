@@ -16,107 +16,107 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>.gitignore</name>
+			<type>1</type>
+			<locationURI>WORKSPACE_LOC/.gitignore</locationURI>
+		</link>
+		<link>
 			<name>README.md</name>
 			<type>1</type>
 			<locationURI>PARENT-5-ECLIPSE_HOME/code/training/java/README.md</locationURI>
 		</link>
 		<link>
-			<name>General/.gitignore</name>
-			<type>1</type>
-			<locationURI>TRAINING_LOC/.gitignore</locationURI>
-		</link>
-		<link>
-			<name>src/com/leanintuit/katas/bowling/bowling.md</name>
+			<name>src/bowling/bowling.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/bowling.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/fizzbuzz/fizzbuzz.md</name>
+			<name>src/fizzbuzz/fizzbuzz.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/fizzbuzz.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/gildedrose/gilded_rose.md</name>
+			<name>src/gildedrose/gilded_rose.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/gilded_rose.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/romannumeralcalculator/roman_numeral_calculator.md</name>
+			<name>src/romannumeralcalculator/roman_numeral_calculator.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/roman_numeral_calculator.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/stringcalculator/string_calculator.md</name>
+			<name>src/stringcalculator/string_calculator.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/string_calculator.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/stringcalculator/string_calculator2.md</name>
+			<name>src/stringcalculator/string_calculator2.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/string_calculator2.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/stringcalculator/string_calculator3.md</name>
+			<name>src/stringcalculator/string_calculator3.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/string_calculator3.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/stringcalculator/string_calculator4.md</name>
+			<name>src/stringcalculator/string_calculator4.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/string_calculator4.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/stringcalculator/string_calculator5.md</name>
+			<name>src/stringcalculator/string_calculator5.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/string_calculator5.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/stringcalculator/string_calculator6.md</name>
+			<name>src/stringcalculator/string_calculator6.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/string_calculator6.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/stringcalculator/string_calculator7.md</name>
+			<name>src/stringcalculator/string_calculator7.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/string_calculator7.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/triviascorer/trivia_scorer.md</name>
+			<name>src/triviascorer/trivia_scorer.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/trivia_scorer.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/triviascorer/trivia_scorer2.md</name>
+			<name>src/triviascorer/trivia_scorer2.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/trivia_scorer2.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/triviascorer/trivia_scorer3.md</name>
+			<name>src/triviascorer/trivia_scorer3.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/trivia_scorer3.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/triviascorer/trivia_scorer4.md</name>
+			<name>src/triviascorer/trivia_scorer4.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/trivia_scorer4.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/triviascorer/trivia_scorer5.md</name>
+			<name>src/triviascorer/trivia_scorer5.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/trivia_scorer5.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/triviascorer/trivia_scorer6.md</name>
+			<name>src/triviascorer/trivia_scorer6.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/trivia_scorer6.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/triviascorer/trivia_scorer7.md</name>
+			<name>src/triviascorer/trivia_scorer7.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/trivia_scorer7.md</locationURI>
 		</link>
 		<link>
-			<name>src/com/leanintuit/katas/triviascorer/trivia_scorer8.md</name>
+			<name>src/triviascorer/trivia_scorer8.md</name>
 			<type>1</type>
 			<locationURI>KATAS_LOC/trivia_scorer8.md</locationURI>
 		</link>
