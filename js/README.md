@@ -2,7 +2,7 @@
 
 ## Install Node.js
 These katas require that `Node.js` be installed. Go to the [node site](https://nodejs.org/) and following the install instructions for your operating system.
-`npm`, the node package manager, will be installed when your install `Node.js`.
+`npm`, the node package manager, will be installed when you install `Node.js`.
 
 If you are running on Windows you will need to restart your computer in order for `Node.js` to work.
 
@@ -39,7 +39,7 @@ Next, the Gilded Rose kata does run as expected due to an incompatability with t
 To run the tests with Jamsine:
 
 ```sh
-npm run jasmine
+npm run jasmine bowling
 ```
 Also, when you first run, you will see an error like `Approved file does not exist`. In the `gilded_rose` folder delete the `.approved.txt` file and rename the `.received.txt` file to `.approved.txt` and re-run.
 
