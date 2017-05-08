@@ -9,12 +9,17 @@
     "jasmine": "^2.5",
     "jasmine-node": "^1.4.15",
     "mocha": "^3.0.0",
+    "npm-watch": "^0.1.9",
     "sinon": "^1.17.5"
+  },
+  "watch": {
+    "test": { "extension": "js", "patterns": [ "**" ], "quiet": true }
   },
   "scripts": {
     "jasmine": "node node_modules/jasmine-node/bin/jasmine-node .",
-    "test": "node node_modules/mocha/bin/mocha",
-    "coverage": "node node_modules/.bin/istanbul cover _mocha"
+    "test": "mocha --colors bowling",
+    "coverage": "node node_modules/.bin/istanbul cover _mocha",
+    "watch": "npm-watch"
   },
   "repository": {
     "type": "git",
