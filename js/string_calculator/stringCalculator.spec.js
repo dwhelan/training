@@ -1,3 +1,5 @@
+'use strict';
+
 var calculate = require('./stringCalculator');
 var expect = require("expect");
 

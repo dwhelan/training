@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = function () {
   this.Item = function (name, sell_in, quality) {
     this.name = name;

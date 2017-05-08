@@ -1,4 +1,6 @@
-﻿var Guide = require('./hitch_hiker_guide');
+﻿'use strict';
+
+var Guide = require('./hitch_hiker_guide');
 var Logger = require('../logging/logger');
 var NullLogger = require('../logging/null_logger');
 var sinon = require('sinon');

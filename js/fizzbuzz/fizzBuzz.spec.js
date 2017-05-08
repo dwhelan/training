@@ -1,3 +1,5 @@
+'use strict';
+
 var fizzBuzz = require('./fizzBuzz');
 var expect = require("expect");
 

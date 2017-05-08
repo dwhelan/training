@@ -1,3 +1,5 @@
+'use strict';
+
 var scorer = require('./triviaScorer');
 var expect = require("expect");
 

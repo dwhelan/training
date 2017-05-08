@@ -1,4 +1,6 @@
-﻿var Bartender = require('./bartender');
+﻿'use strict';
+
+var Bartender = require('./bartender');
 var expect = require("expect");
 
 describe('Making a drink', function () {

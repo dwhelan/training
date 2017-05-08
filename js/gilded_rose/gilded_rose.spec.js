@@ -1,3 +1,5 @@
+'use strict';
+
 require('approvals').mocha();
 var os = require('os');
 var GildedRose = require('./gilded_rose');

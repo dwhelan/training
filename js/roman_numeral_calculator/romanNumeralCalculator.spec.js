@@ -1,3 +1,5 @@
+'use strict';
+
 var calculate = require('./romanNumeralCalculator');
 var expect = require("expect");
 

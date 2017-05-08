@@ -1,3 +1,5 @@
+'use strict';
+
 var Bowling = require('./bowling');
 var expect = require("expect");
 
