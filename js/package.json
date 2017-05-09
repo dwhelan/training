@@ -23,9 +23,10 @@
     }
   },
   "scripts": {
-    "test": "mocha --colors gilded_rose",
     "cover": "nyc yarn test",
     "lint": "eslint .",
+    "test": "mocha --colors",
+    "test-all": "yarn test bowling fizz-buzz gilded-rose bartender hitch-hiker-guide roman-numeral-calculator string-calculator trivia-scorer",
     "watch": "npm-watch"
   },
   "repository": {

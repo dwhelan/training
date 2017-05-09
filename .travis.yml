@@ -11,8 +11,8 @@ node_js:
   - 6.5
   - 6.6
   - 7.7
-before_script: cd js && npm install
-script: npm test  bowling fizzbuzz gilded_rose bartender hitch_hiker_guide roman_numeral_calculator string_calculator trivia_scorer
+before_script: cd js && yarn install
+script: yarn test-all
 env:
   - CXX=g++-4.8
 addons:
