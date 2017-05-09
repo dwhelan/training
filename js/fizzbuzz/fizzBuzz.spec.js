@@ -1,10 +1,10 @@
 'use strict';
 
 var fizzBuzz = require('./fizzBuzz');
-var expect = require("expect");
+require('should');
 
-describe('FizzBuzz', function () {
-  xit('should do something', function () {
-    expect("the answer").toBe("42");
+xdescribe('FizzBuzz', function () {
+  it('should do something', function () {
+    'the answer'.should.equal('42');
   });
 });

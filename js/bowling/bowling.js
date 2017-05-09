@@ -1,9 +1,9 @@
 'use strict';
 
-module.exports = function() {
-  this.roll = function(pins) {
-  };
+module.exports = class Bowling {
+  roll() {
+  }
 
-  this.score = function() {
-  };
-};
+  score() {
+  }
+}

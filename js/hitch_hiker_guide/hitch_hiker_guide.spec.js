@@ -5,9 +5,9 @@ var Logger = require('../logging/logger');
 var NullLogger = require('../logging/null_logger');
 var sinon = require('sinon');
 
-var expect = require("expect");
+require('should');
 
-describe('The meaning of life', function () {
+xdescribe('The meaning of life', function () {
 
   describe('the answer', function () {
     xit("with a real logger - the logger will throw!", function () {
@@ -18,7 +18,7 @@ describe('The meaning of life', function () {
       var answer = guide.answer();
 
       // Assert
-      expect(answer).toBe("42");
+      'the answer'.should.equal('42');
     });
 
     it("with a null logger we can test the answer", function () {
@@ -26,7 +26,7 @@ describe('The meaning of life', function () {
 
       var answer = guide.answer();
 
-      expect(answer).toBe("42");
+      'the answer'.should.equal('42');
     });
   });
 
@@ -44,7 +44,7 @@ describe('The meaning of life', function () {
 
       guide.answer();
 
-      expect(logger.message).toBe("Calculating the meaning of life, the universe and everything");
+      logger.message.should.equal('Calculating the meaning of life, the universe and everything');
     });
 
     it("with sinon stub logger we can test logging with less fuss", function () {

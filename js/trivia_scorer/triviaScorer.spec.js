@@ -1,10 +1,10 @@
 'use strict';
 
 var scorer = require('./triviaScorer');
-var expect = require("expect");
+require('should');
 
-describe('Trivia Scorer', function () {
-  xit('should do something', function () {
-    expect("the answer").toBe("42");
+xdescribe('Trivia Scorer', function () {
+  it('should do something', function () {
+    'the answer'.should.equal('42');
   });
 });

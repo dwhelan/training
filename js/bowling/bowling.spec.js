@@ -1,12 +1,13 @@
 'use strict';
 
 var Bowling = require('./bowling');
-var expect = require("expect");
 
-describe('Bowling', function () {
-  var game = new Bowling();
+require('should');
 
-  xit('should do something', function () {
-    expect("the answer").toBe("42");
+xdescribe('Bowling', function () {
+  let game = new Bowling();
+
+  it('should do something', function () {
+    'the answer'.should.equal(42);
   });
 });
