@@ -4,3 +4,4 @@
 
 /solutions/
 /*.log
+.nyc_output/
