@@ -6,4 +6,4 @@ module.exports = class Bowling {
 
   score() {
   }
-}
+};

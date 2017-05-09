@@ -1,9 +1,9 @@
 'use strict';
 
-var calculate = require('./romanNumeralCalculator');
+//const calculate = require('./string-calculator');
 require('should');
 
-xdescribe('Roman Numeral Calculator', function () {
+xdescribe('String Calculator', function () {
   it('should do something', function () {
     'the answer'.should.equal('42');
   });

@@ -1,6 +1,6 @@
 'use strict';
 
-var fizzBuzz = require('./fizz-buzz');
+//const fizzBuzz = require('./fizz-buzz');
 require('should');
 
 xdescribe('FizzBuzz', function () {

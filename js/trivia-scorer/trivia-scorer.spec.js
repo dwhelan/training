@@ -1,6 +1,6 @@
 'use strict';
 
-var scorer = require('./trivia-scorer');
+//const scorer = require('./trivia-scorer');
 require('should');
 
 xdescribe('Trivia Scorer', function () {
