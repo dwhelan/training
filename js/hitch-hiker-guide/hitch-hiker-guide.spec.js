@@ -1,8 +1,8 @@
 ﻿'use strict';
 
-var Guide = require('./hitch_hiker_guide');
+var Guide = require('./hitch-hiker-guide');
 var Logger = require('../logging/logger');
-var NullLogger = require('../logging/null_logger');
+var NullLogger = require('../logging/null-logger');
 var sinon = require('sinon');
 
 require('should');

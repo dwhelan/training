@@ -1,9 +1,9 @@
 'use strict';
 
-var calculate = require('./stringCalculator');
+var fizzBuzz = require('./fizz-buzz');
 require('should');
 
-xdescribe('String Calculator', function () {
+xdescribe('FizzBuzz', function () {
   it('should do something', function () {
     'the answer'.should.equal('42');
   });
