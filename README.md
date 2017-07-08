@@ -18,5 +18,4 @@ $ git clone https://github.com/dwhelan/training.git
 Follow the instructions in the `README.MD` file in the language folder of your choice:
 
  * [C#](cs)
- * [Java](java)
  * [Javascript](js)
