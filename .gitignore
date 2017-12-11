@@ -1,5 +1,10 @@
-.DS_Store
-.idea
+/.DS_Store
+/.idea
+/.nyc_output/
 
-*.received.txt
-/node_modules/
+/coverage/
+/gilded_rose/.approved.txt
+/gilded_rose/.received.txt
+/node_modules
+/solutions/
+/*.log
