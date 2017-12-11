@@ -8,30 +8,25 @@
     "eslint-plugin-nodeca": "1.x",
     "istanbul": "^0.4.5",
     "mocha": "^3.0.0",
-    "npm-watch": "^0.1.9",
     "nyc": "^10.3.2",
     "should": "^11.2.1",
     "sinon": "^1.17.5"
   },
-  "watch": {
-    "test": {
-      "extensions": "js",
-      "patterns": [
-        "**"
-      ],
-      "quiet": true
-    }
+  "nyc": {
+    "include":  ["**/*.js"],
+    "exclude":  ["**/*.spec.js"],
+    "reporter": ["lcov", "text"]
   },
   "scripts": {
     "cover": "nyc yarn test",
     "lint": "eslint .",
-    "test": "mocha --colors",
-    "test-all": "npm run test bowling fizz-buzz gilded-rose bartender hitch-hiker-guide roman-numeral-calculator string-calculator trivia-scorer",
-    "watch": "npm-watch"
+    "test": "mocha",
+    "test-all": "yarn test bowling fizz-buzz gilded-rose bartender hitch-hiker-guide roman-numeral-calculator string-calculator trivia-scorer",
+    "watch": "mocha --watch"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dwhelan/training"
+    "url": "https://github.com/dwhelan/training-js"
   },
   "author": "Declan Whelan",
   "license": "MIT",
