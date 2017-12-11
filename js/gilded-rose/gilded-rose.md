@@ -1,1 +1,0 @@
-../../katas/gilded_rose.md

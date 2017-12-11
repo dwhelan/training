@@ -1,1 +1,0 @@
-../../katas/roman_numeral_calculator.md

@@ -2,3 +2,4 @@
 .idea
 
 *.received.txt
+/node_modules/
