@@ -1,0 +1,7 @@
+/coverage
+/node_modules
+/gilded_rose/.approved.txt
+
+/solutions/
+/*.log
+.nyc_output/
