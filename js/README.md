@@ -5,7 +5,7 @@ The javascript code is ECMAScript 5.1.
 
 ## Getting started
 ### Install node.js
-These katas require that `Node.js` be installed. Go to the [node site](https://nodejs.org/) and following the install instructions for your operating system.
+These katas require that `Node.js` be installed. Go to the [node site](https://nodejs.org/) and follow the install instructions for your operating system.
 `npm`, the node package manager, will be installed when you install `Node.js`.
 
 If you are running on Windows you will need to restart your computer in order for `Node.js` to work.
