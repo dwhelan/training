@@ -18,7 +18,7 @@ Some refactoring shortcuts you may find helpful:
 
 If you want to add a `*`'d shortcut or one of your own:
 - start preferences `⌘,`
-- select `Keymap | Main Menu | Refactor`
+- select `Keymap` | `Main Menu` | `Refactor`
 - right click on a refactoring
 - select `Add Keyboard Shortcut`
 - enter the shortcut keys
