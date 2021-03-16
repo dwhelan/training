@@ -1,17 +1,17 @@
 {
   "name": "training",
   "version": "0.0.0",
-  "description": "Javascript katas for the Leanintuit Agile Engineering course",
+  "description": "Javascript katas for the Agile Engineering course",
   "devDependencies": {
-    "approvals": "^1.3.0",
-    "eslint": "2.x",
-    "eslint-plugin-nodeca": "1.x",
+    "approvals": "^3.0.5",
+    "eslint": "^7.22.0",
+    "eslint-plugin-nodeca": "^1.0.3",
     "istanbul": "^0.4.5",
-    "mocha": "^3.0.0",
-    "npm-watch": "^0.1.9",
-    "nyc": "^10.3.2",
-    "should": "^11.2.1",
-    "sinon": "^1.17.5"
+    "mocha": "^8.3.2",
+    "npm-watch": "^0.9.0",
+    "nyc": "^15.1.0",
+    "should": "^13.2.3",
+    "sinon": "^9.2.4"
   },
   "watch": {
     "test": {
