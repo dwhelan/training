@@ -1,7 +1,7 @@
-## Some useful keyboard shortcuts
+## IntelliJ Setup
 
-### Refactoring
-Some refactoring shortcuts you may find helpful:
+### Shortcuts
+Here are some shortcuts you may find helpful.
 
 | Refactoring         | Shortcut     |
 | ---                 | ---          |
@@ -11,15 +11,21 @@ Some refactoring shortcuts you may find helpful:
 | Introduce Field     | `⌥⌘F`        |
 | Introduce Parameter | `⌥⌘P`        |
 | Introduce Variable  | `⌥⌘V`        |
-| Refactor            | `⌥⌘;`*       |
+| Refactor this       | `⌃T` `⌥⌘T`*  |
 | Rename              | `⇧F6` `⌥⌘R`* |
+| Quickfix            | `⌥⏎`         |
 
-*not created by default
-
-If you want to add a `*`'d shortcut or one of your own:
+*a suggested custom shortcut you can add:
 - start preferences `⌘,`
 - select `Keymap` | `Main Menu` | `Refactor`
 - right click on a refactoring
 - select `Add Keyboard Shortcut`
-- enter the shortcut keys
+- enter shortcut keys
 
+### Testing
+| Action    | Shortcut |
+| ---       | ---      |
+| Rerun     | `⌃R`     |
+
+See [IntelliJ shortcuts](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html)
+for other useful shortcuts.

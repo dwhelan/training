@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bead9832-c697-4166-9fb0-20ef8e323a40" name="Default Changelist" comment="" />
+    <list default="true" id="bead9832-c697-4166-9fb0-20ef8e323a40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shortcuts.md" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJ.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fizzbuzz/Fizzbuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fizzbuzz/Fizzbuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fizzbuzz/FizzbuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fizzbuzz/FizzbuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katas/fizzbuzz.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/fizzbuzz.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,8 +31,8 @@
   </component>
   <component name="JavaAutoRunManager">
     <enabled-run-configurations>
-      <run-configuration type="JUnit" name="Fizzbuzz" />
       <run-configuration type="JUnit" name="All" />
+      <run-configuration type="JUnit" name="Fizzbuzz" />
     </enabled-run-configurations>
   </component>
   <component name="ProjectId" id="1pY0E8e82x7q8buqm9kODiBOQub" />
@@ -65,7 +72,7 @@
       <recent name="Fizzbuzz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Fizzbuzz">
+  <component name="RunManager" selected="JUnit.All">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
