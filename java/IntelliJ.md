@@ -15,17 +15,20 @@ Here are some shortcuts you may find helpful.
 | Rename              | `⇧F6` `⌥⌘R`* |
 | Quickfix            | `⌥⏎`         |
 
-*a suggested custom shortcut you can add:
-- start preferences `⌘,`
-- select `Keymap` | `Main Menu` | `Refactor`
-- right click on a refactoring
-- select `Add Keyboard Shortcut`
-- enter shortcut keys
-
 ### Testing
 | Action    | Shortcut |
 | ---       | ---      |
 | Rerun     | `⌃R`     |
+
+*a suggested custom shortcut you can add:
+- start preferences `⌘,`
+- select `Keymap` | `Main Menu`
+- right click on an action
+- select `Add Keyboard Shortcut`
+- enter shortcut keys
+
+This [cheatsheet](./Mac OS Training Keymap.pdf) lists
+the above shortcuts along with many others.
 
 See [IntelliJ shortcuts](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html)
 for other useful shortcuts.
