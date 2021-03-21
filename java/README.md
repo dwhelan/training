@@ -1,36 +1,25 @@
-# `Java`
+## `Training katas`
+This Java project has starting source code and tests
+for the katas along with a description markdown file.
 
-Training exercises and katas in Java.
+It saves all IntelliJ workplace, project and dependencies locally.
 
-## Getting started
+### Getting started
 
-At a terminal shell:
+At a terminal shell enter:
 
 ```
 git clone https://github.com/dwhelan/training
-cd training
 ```
 
-Start IntelliJ and open the Java training project
-`File` | `Open...` and select the `training/java` folder created above.
+Start IntelliJ and select menu `File` | `Open...` 
+and choose the `training/java` folder created above.
 
-Browse to the [training git repository](https://github.com/dwhelan/training)
+Select menu `Run` | `Run...` | `All`.
+You should see that all tests passed.
 
-## Building
-Select IntelliJ's menu `Build` | `Build Project` or press `⌘F9`.
-
-Select menu `View` | `Tool Windows` | `Build`. 
-You  should see something like:
-```
-Executing pre-compile tasks...
-Running 'before' tasks
-Checking sources
-Running 'after' tasks
-Finished, saving caches...
-```
-### Unit tests
-
-### Characterization tests
+You should also see a run configuration for each kata that
+you can use to run individual kata tests.
 
 ### Setup
 

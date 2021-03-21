@@ -1,4 +1,4 @@
-package RomanNumerals;
+package RomanNumeralCalculator;
 
 import org.junit.*;
 

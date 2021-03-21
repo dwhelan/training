@@ -13,7 +13,7 @@ Create a `fizbuzz(number)` method or function that takes an
 integer and returns a string:
 
 | number  | return value |
-| ---     | ---          |
+| :---    | :---         |
 | 1       | "1"          |
 | 2       | "2"          |
 | 3       | "fizz"       |

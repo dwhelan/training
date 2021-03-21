@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="bead9832-c697-4166-9fb0-20ef8e323a40" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/RomanNumerals.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/RomanNumerals.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RomanNumerals/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanNumeralCalculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RomanNumerals/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanNumeralCalculator/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RomanNumerals/roman-numeral-calculator.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanNumeralCalculator/roman-numeral-calculator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katas/fizzbuzz.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/fizzbuzz.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +60,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -126,13 +132,8 @@
     <list>
       <item itemvalue="JUnit.Fizzbuzz" />
       <item itemvalue="JUnit.All" />
-      <item itemvalue="JUnit.RomanNumerals" />
+      <item itemvalue="JUnit.RomanNumeralCalculator" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.RomanNumerals" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
 </project>
