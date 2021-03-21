@@ -1,25 +1,15 @@
-# String Calculator
-Create an `add(input : string) : int` method.
+### String Calculator
+Build a string calculator that accepts
+an input string and does some math on it. 
 
-It should allow 0, 1 or 2 numbers, separated with commas in `input` and should return the sum of those numbers.
+There are multiple steps to this kata.
+You progress  through them completing one step 
+before going to the next:
 
-Some examples:
-
-<table>
-    <tr>
-        <td>Input</td>
-        <td>Output</td>
-    </tr>
-    <tr>
-        <td>""</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>"1"</td>
-        <td>1</td>
-    </tr>
-    <tr>
-        <td>"1,2"</td>
-        <td>3</td>
-    </tr>
-</table>
+- [step 1](string_calculator1.md)
+- [step 2](string_calculator2.md)
+- [step 3](string_calculator3.md)
+- [step 4](string_calculator4.md)
+- [step 5](string_calculator5.md)
+- [step 6](string_calculator6.md)
+- [step 7](string_calculator7.md)

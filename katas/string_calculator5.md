@@ -1,7 +1,12 @@
-# String Calculator 5
+### Step 5 - customer separator
+Support custom separator.
+To specify a custom delimiter, 
+the beginning of the string will contain a 
+separate line starting with `//` and ending in `\n`.
 
-Support different delimiters:
+For example `calculate(“//;\n1;2”)` should return `3` 
+using `;` as a custom delimiter.
 
-To change a delimiter, the beginning of the string will contain a separate line that looks like this:   `“//[delimiter]\n[numbers…]”` for example `“//;\n1;2”` should return `3` where the default delimiter is `‘;’` .
+The custom delimiter line is optional
 
-The first line is optional. all existing scenarios should still be supported.
+All existing scenarios should still be supported.

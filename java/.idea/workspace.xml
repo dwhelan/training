@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bead9832-c697-4166-9fb0-20ef8e323a40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/StringCalculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringCalculator/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringCalculator/fizzbuzz.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringCalculator/string_calculator1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../katas/string_calculator1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RomanNumeralCalculator/roman-numeral-calculator.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanNumeralCalculator/roman-numeral-calculator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katas/string_calculator.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/string_calculator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katas/string_calculator2.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/string_calculator2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katas/string_calculator3.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/string_calculator3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katas/string_calculator4.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/string_calculator4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katas/string_calculator5.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/string_calculator5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katas/string_calculator6.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/string_calculator6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katas/string_calculator7.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/string_calculator7.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +64,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/StringCalculator" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -62,6 +73,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/StringCalculator" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">

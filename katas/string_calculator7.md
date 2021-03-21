@@ -1,5 +1,12 @@
-# String Calculator 7 - Custom Delimiters Bonus
+### Step 7 - multiple separators
+Support multiple customer separators 
+with the following format: `//[delimiter1][delimiter2]...\n`
 
-Delimiters can be of any length with the following format:  `“//[delimiter]\n”` for example: `“//[***]\n1***2***3”` should return `6`.
+Some examples:
 
-Allow multiple delimiters like this:  `“//[delim1][delim2]\n”` for example `“//[*][%]\n1*2%3”` should return `6`.
+| input                    | return value |
+| :---                     | : ---        |
+| "//[;]\n1;2;3"           | 6            |
+| "//[;][%][+]\n1,2;3%4+5" | 15           |
+
+All existing scenarios should still be supported.
