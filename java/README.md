@@ -1,10 +1,10 @@
-## `Training katas`
+### `Training katas`
 This Java project has starting source code and tests
 for the katas along with a description markdown file.
 
 It saves all IntelliJ workplace, project and dependencies locally.
 
-### Getting started
+#### Getting started
 Make sure you have cloned the training repo.  
 ```
 git clone https://github.com/dwhelan/training
