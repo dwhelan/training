@@ -1,7 +1,13 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Fizzbuzz" type="JUnit" factoryName="JUnit">
+  <configuration default="false" name="RomanNumerals" type="JUnit" factoryName="JUnit">
     <module name="java" />
-    <option name="PACKAGE_NAME" value="Fizzbuzz" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="RomanNumerals.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="RomanNumerals" />
     <option name="MAIN_CLASS_NAME" value="" />
     <option name="METHOD_NAME" value="" />
     <option name="TEST_OBJECT" value="package" />
