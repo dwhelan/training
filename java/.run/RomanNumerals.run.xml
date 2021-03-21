@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="RomanNumeralCalculator" type="JUnit" factoryName="JUnit">
+  <configuration default="false" name="Roman Numeral Calculator" type="JUnit" factoryName="JUnit">
     <module name="java" />
     <extension name="coverage">
       <pattern>

@@ -6,7 +6,8 @@ It saves all IntelliJ workplace, project and dependencies locally.
 
 ### Getting started
 
-At a terminal shell enter:
+At a command prompt or shell clone the training repository
+to a local folder.
 
 ```
 git clone https://github.com/dwhelan/training

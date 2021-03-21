@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bead9832-c697-4166-9fb0-20ef8e323a40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StringCalculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringCalculator/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringCalculator/fizzbuzz.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringCalculator/string_calculator1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../katas/string_calculator1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../katas/string_calculator.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/string_calculator.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../katas/string_calculator2.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/string_calculator2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../katas/string_calculator3.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/string_calculator3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../katas/string_calculator4.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/string_calculator4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../katas/string_calculator5.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/string_calculator5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../katas/string_calculator6.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/string_calculator6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../katas/string_calculator7.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/string_calculator7.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/RomanNumerals.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/RomanNumerals.run.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +121,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="String Calculator" type="JUnit" factoryName="JUnit">
+      <module name="java" />
+      <option name="PACKAGE_NAME" value="StringCalculator" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -141,8 +141,9 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Fizzbuzz" />
+      <item itemvalue="JUnit.String Calculator" />
       <item itemvalue="JUnit.All" />
-      <item itemvalue="JUnit.RomanNumeralCalculator" />
+      <item itemvalue="JUnit.Roman Numeral Calculator" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
