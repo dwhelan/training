@@ -32,3 +32,12 @@ Finished, saving caches...
 
 ### Characterization tests
 
+### Setup
+
+Operating System (e.g. Windows 10)
+IntelliJ version (e.g. 2020.3)
+JDK version (e.g. Java(TM) SE Runtime Environment (build 1.8.0_60-b27)
+Do you use a java version manager such as jEnv?
+JUnit version (Jupiter 5.7.1)
+SpringBoot version (e.g. 2.4.3)
+Suggestions on setting up a git repo for the training material?
