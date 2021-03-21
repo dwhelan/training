@@ -27,8 +27,8 @@
   </component>
   <component name="JavaAutoRunManager">
     <enabled-run-configurations>
-      <run-configuration type="JUnit" name="All" />
       <run-configuration type="JUnit" name="Fizzbuzz" />
+      <run-configuration type="JUnit" name="All" />
     </enabled-run-configurations>
   </component>
   <component name="ProjectId" id="1pY0E8e82x7q8buqm9kODiBOQub" />
