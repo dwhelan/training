@@ -9,7 +9,7 @@ Players take turns to count up from one replacing any number:
 - divisible by `3` and `5` with `fizzbuzz` 
 
 ## Kata
-Create a `fizbuzz(number)` method or function that takes an 
+Create a `calculate(number)` method or function that takes an 
 integer and returns a string:
 
 | number  | return value |
