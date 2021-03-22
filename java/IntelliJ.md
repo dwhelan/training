@@ -1,6 +1,6 @@
-### IntelliJ Setup
+## IntelliJ Setup
 
-#### Shortcuts
+### Shortcuts
 Here are some shortcuts you may find helpful.
 
 **Refactoring**
@@ -35,15 +35,16 @@ and can speed up making repetitive changes.
 It can be a little intimidating to start with.
 The following shortcuts can help you get going:
 
-| Action                          | Windows Shortcut      | Mac Shortcut |
-| :---                            | :---                  | :---         |
-| Add/Remove Caret                | `Alt + Shift + Click` | `⌥⇧ + Click` |
-| Select/Unselect Next Occurrence | `Alt + J`             | `^G`         |
-| Clone Caret Above               | `Ctrl + Shift + Up`   | `fn^↑`       |
-| Clone Caret Below               | `Ctrl + Shift + Down` | `fn^↓`       |
+| Action                          | Windows Shortcut       | Mac Shortcut |
+| :---                            | :---                   | :---         |
+| Add/Remove Caret                | `Alt + Shift + Click`  | `⌥⇧ + Click` |
+| Select/Unselect Next Occurrence | `Alt + J`              | `^G`         |
+| Clone Caret Above               | `Ctrl + Shift + Up`*   | `fn^↑`*      |
+| Clone Caret Below               | `Ctrl + Shift + Down`* | `fn^↓`*      |
 
-Check out [Rider](https://www.jetbrains.com/help/rider/Multicursor.html) for
-additional ways to use multiple cursors.
+*suggested
+
+Check out [additional ways to use multiple cursors](https://www.jetbrains.com/help/rider/Multicursor.html).
 
 #### To add a suggested or custom shortcut:
 - start preferences `Ctrl + Alt + S` (Windows) or `⌘,` (Mac)

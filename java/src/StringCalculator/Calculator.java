@@ -1,7 +1,7 @@
 package StringCalculator;
 
 public class Calculator {
-    public static String calculate(int number) {
-        return "42";
+    public static int calculate(String expression) {
+        return 42;
     }
 }

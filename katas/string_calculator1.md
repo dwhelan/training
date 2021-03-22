@@ -1,6 +1,6 @@
 ### Step 1 - add zero, one or two numbers
 Create a `calculate(input)` method or function that takes a
-string and returns the sum of numbers in the string.
+string and returns the integer sum of numbers in the string.
 
 It should allow zero, one or two numbers,
 with a comma `,` separator.
@@ -11,4 +11,4 @@ with a comma `,` separator.
 | "1"	 | 1            |
 | "1,2"	 | 3            |
 
-There is no need to check for malformed strings.
+There is no need yet to check for the correctness of the `input`.

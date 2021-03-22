@@ -18,3 +18,5 @@ You should see that all tests passed.
 
 You should also see a run configuration for each kata that
 you can use to run individual kata tests.
+
+See [IntelliJ](./IntelliJ.md) for additional tips and shortcuts.
