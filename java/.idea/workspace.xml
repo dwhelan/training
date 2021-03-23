@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bead9832-c697-4166-9fb0-20ef8e323a40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Bowling/Bowling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bowling/BowlingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fizzbuzz/Fizzbuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fizzbuzz/Fizzbuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fizzbuzz/FizzbuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fizzbuzz/FizzbuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RomanNumeralCalculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanNumeralCalculator/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katas/bowling.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/bowling.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Bowling" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -67,6 +67,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Bowling" />
       <recent name="$PROJECT_DIR$/src/StringCalculator" />
       <recent name="$PROJECT_DIR$" />
     </key>

@@ -1,6 +1,6 @@
 package RomanNumeralCalculator;
 
-public class Calculator {
+public class RomanNumerals {
     public static String calculate(int number) {
         return "XLII";
     }
