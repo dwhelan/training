@@ -7,6 +7,6 @@ import static RomanNumeralCalculator.Calculator.calculate;
 public class CalculatorTest {
     @Test
     public void start_here() {
-        assertEquals("XLII", Calculator.calculate(42));
+        assertEquals("XLII", calculate(42));
     }
 }

@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bead9832-c697-4166-9fb0-20ef8e323a40" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RomanNumeralCalculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanNumeralCalculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fizzbuzz/Fizzbuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fizzbuzz/Fizzbuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fizzbuzz/FizzbuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fizzbuzz/FizzbuzzTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RomanNumeralCalculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanNumeralCalculator/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../katas/string_calculator1.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/string_calculator1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
