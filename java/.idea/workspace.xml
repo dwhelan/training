@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bead9832-c697-4166-9fb0-20ef8e323a40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bowling/Bowling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bowling/BowlingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GildedRose/GildedRose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GildedRose/GildedRoseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GildedRose/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GildedRose/TexttestFixture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../katas/bowling.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/bowling.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GildedRose/Fizzbuzz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GildedRose/FizzbuzzTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Bowling" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/GildedRose" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -67,6 +70,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/GildedRose" />
       <recent name="$PROJECT_DIR$/src/Bowling" />
       <recent name="$PROJECT_DIR$/src/StringCalculator" />
       <recent name="$PROJECT_DIR$" />
@@ -123,6 +127,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GildedRoseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GildedRose.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GildedRose" />
+      <option name="MAIN_CLASS_NAME" value="GildedRose.GildedRoseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="String Calculator" type="JUnit" factoryName="JUnit">
       <module name="java" />
       <option name="PACKAGE_NAME" value="StringCalculator" />
@@ -146,7 +166,13 @@
       <item itemvalue="JUnit.All" />
       <item itemvalue="JUnit.Fizzbuzz" />
       <item itemvalue="JUnit.Roman Numeral Calculator" />
+      <item itemvalue="JUnit.GildedRoseTest" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GildedRoseTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
