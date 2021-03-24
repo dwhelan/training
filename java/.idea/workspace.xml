@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bead9832-c697-4166-9fb0-20ef8e323a40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GildedRose/GildedRose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GildedRose/GildedRoseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GildedRose/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GildedRose/TexttestFixture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.run/Gilded Rose UnitTest.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GildedRose/GildedRoseCharacterizationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GildedRose/Fizzbuzz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GildedRose/FizzbuzzTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +78,7 @@
       <recent name="Fizzbuzz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All">
+  <component name="RunManager" selected="JUnit.Gilded Rose UnitTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -127,22 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GildedRoseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GildedRose.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="GildedRose" />
-      <option name="MAIN_CLASS_NAME" value="GildedRose.GildedRoseTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="String Calculator" type="JUnit" factoryName="JUnit">
       <module name="java" />
       <option name="PACKAGE_NAME" value="StringCalculator" />
@@ -166,11 +146,11 @@
       <item itemvalue="JUnit.All" />
       <item itemvalue="JUnit.Fizzbuzz" />
       <item itemvalue="JUnit.Roman Numeral Calculator" />
-      <item itemvalue="JUnit.GildedRoseTest" />
+      <item itemvalue="JUnit.Gilded Rose UnitTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GildedRoseTest" />
+        <item itemvalue="JUnit.Gilded Rose UnitTest" />
       </list>
     </recent_temporary>
   </component>
