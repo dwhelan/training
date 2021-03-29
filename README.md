@@ -11,7 +11,7 @@ If you do want to use `git` but don't have it installed you can download it from
 With `git` installed you simply open up a shell or command window and clone this repository:
 
 ```
-$ git clone https://github.com/dwhelan/training.git
+$ git clone git@gitlab.mtb.com:P2P/Training.git
 ```
 
 Next, follow the instructions in the `README.MD` for the language you will be working in:

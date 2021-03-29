@@ -7,7 +7,7 @@ It saves all IntelliJ workplace, project and dependencies locally.
 #### Getting started
 Make sure you have cloned the training repo.  
 ```
-git clone https://github.com/dwhelan/training
+$ git clone git@gitlab.mtb.com:P2P/Training.git
 ```
 
 Start IntelliJ and select menu `File` | `Open...` 
