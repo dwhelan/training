@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Gilded Rose UnitTest" type="JUnit" factoryName="JUnit">
+  <configuration default="false" name="Gilded Rose" type="JUnit" factoryName="JUnit">
     <module name="java" />
     <extension name="coverage">
       <pattern>
@@ -8,9 +8,9 @@
       </pattern>
     </extension>
     <option name="PACKAGE_NAME" value="GildedRose" />
-    <option name="MAIN_CLASS_NAME" value="GildedRose.GildedRoseTest" />
+    <option name="MAIN_CLASS_NAME" value="" />
     <option name="METHOD_NAME" value="" />
-    <option name="TEST_OBJECT" value="class" />
+    <option name="TEST_OBJECT" value="package" />
     <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
     <method v="2">
       <option name="Make" enabled="true" />
