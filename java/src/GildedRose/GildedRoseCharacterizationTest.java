@@ -2,6 +2,7 @@ package GildedRose;
 
 import org.junit.Test;
 import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
@@ -146,11 +147,12 @@ public class GildedRoseCharacterizationTest {
 	@Test
 	public void should_not_increase_backstage_passes_above_max_quality() throws Exception {
 		Item backStagePassMoreThan10DaysAway = new Item("Backstage passes to a TAFKAL80ETC concert", 15, 50);
-
 		Item backStagePass10DaysAway = new Item("Backstage passes to a TAFKAL80ETC concert", 10, 49);
 		Item backStagePass5DaysAway = new Item("Backstage passes to a TAFKAL80ETC concert", 5, 48);
 
-		GildedRose sut = new GildedRose((Item[]) Arrays.asList(backStagePassMoreThan10DaysAway, backStagePass10DaysAway, backStagePass5DaysAway).toArray());
+		Item[] items = Arrays.asList(backStagePassMoreThan10DaysAway, backStagePass10DaysAway, backStagePass5DaysAway)
+				.toArray(new Item[0]);
+		GildedRose sut = new GildedRose(items);
 
 		sut.updateQuality();
 
