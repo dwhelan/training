@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bead9832-c697-4166-9fb0-20ef8e323a40" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/Gilded Rose UnitTest.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/Gilded Rose.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GildedRose/GildedRoseCharacterizationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GildedRose/GildedRoseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GildedRose/GildedRoseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GildedRose/TexttestFixture.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/GildedRose" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -80,19 +76,13 @@
       <recent name="Fizzbuzz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Gilded Rose">
+  <component name="RunManager" selected="JUnit.All">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
       <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
@@ -101,24 +91,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="String Calculator" type="JUnit" factoryName="JUnit">
-      <module name="java" />
-      <option name="PACKAGE_NAME" value="StringCalculator" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,18 +113,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="String Calculator" type="JUnit" factoryName="JUnit">
+      <module name="java" />
+      <option name="PACKAGE_NAME" value="StringCalculator" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.String Calculator" />
       <item itemvalue="JUnit.All" />
       <item itemvalue="JUnit.Fizzbuzz" />
-      <item itemvalue="JUnit.Roman Numeral Calculator" />
       <item itemvalue="JUnit.Gilded Rose" />
+      <item itemvalue="JUnit.Roman Numeral Calculator" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.Gilded Rose" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
