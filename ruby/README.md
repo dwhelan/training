@@ -7,7 +7,18 @@ It saves all RubyMine workplace, project and dependencies locally.
 #### Getting started
 Make sure you have cloned the training repo.  
 ```
-$ git clone git@gitlab.mtb.com:P2P/Training.git
+git clone https://github.com/dwhelan/training.git
+```
+
+or 
+
+```
+git clone git@github.com:dwhelan/training.git
+```
+
+Setup ...
+
+```
 cd ruby
 bundle install
 rake test
