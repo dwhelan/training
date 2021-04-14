@@ -1,5 +1,4 @@
-class RomanNumerals
-    def calculate
-
-    end
+module RomanNumerals
+  def calculate(input)
+  end
 end

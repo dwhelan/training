@@ -3,7 +3,7 @@
 require "rake/testtask"
 
 Rake::TestTask.new(:test) do |t|
-  system 'clear -x'
+  system 'export TERM=${TERM:-dumb}; clear -x'
   t.pattern = "lib/**/*_test.rb"
 end
 

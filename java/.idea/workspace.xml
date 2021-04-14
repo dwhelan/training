@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bead9832-c697-4166-9fb0-20ef8e323a40" name="Default Changelist" comment="" />
+    <list default="true" id="bead9832-c697-4166-9fb0-20ef8e323a40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/lib/roman_numerals/roman_numerals.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/lib/roman_numerals/roman_numerals.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/lib/roman_numerals/roman_numerals_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/lib/roman_numerals/roman_numerals_test.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
