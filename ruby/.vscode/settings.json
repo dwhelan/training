@@ -1,0 +1,6 @@
+{
+    "rubyTestExplorer.minitestCommand": "bundle exec rake test",
+    "rubyTestExplorer.minitestDirectory": "./lib/",
+    "rubyTestExplorer.testFramework": "minitest",
+    "files.autoSave": "onFocusChange"
+}
