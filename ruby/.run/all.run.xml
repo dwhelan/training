@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="roman numerals" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+  <configuration default="false" name="all" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
     <module name="ruby" />
     <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
     <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib" />
@@ -18,12 +18,12 @@
       </COVERAGE_PATTERN>
     </EXTENSION>
     <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-    <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-    <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/roman_numerals/roman_numerals_test.rb" />
+    <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/lib" />
+    <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
     <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="$MODULE_DIR$/lib/roman_numerals/roman_numerals_test.rb" />
-    <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+    <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*,*_spec}.rb" />
     <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-    <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="CUSTOM_SET_OF_FILES" />
+    <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
     <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
     <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
     <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
