@@ -1,7 +1,10 @@
 # frozen_string_literal: true
 
-require 'rubocop/rake_task'
+require "rake/testtask"
 
-RuboCop::RakeTask.new
+Rake::TestTask.new(:test) do |t|
+  system 'clear -x'
+  t.pattern = "lib/**/*_test.rb"
+end
 
-task default: %i[rubocop]
+task default: %i[test]

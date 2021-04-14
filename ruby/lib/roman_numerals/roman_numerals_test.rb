@@ -1,7 +1,6 @@
-# frozen_string_literal: true
-
+require "minitest"
 require "minitest/autorun"
-require_relative "../test_helper"
+require "minitest/pride"
 
 class RomanNumerals < Minitest::Test
   def test_start_here
