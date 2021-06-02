@@ -1,10 +1,8 @@
 package GildedRose;
 
-import org.junit.Test;
 import java.util.Arrays;
-import java.util.List;
-
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
 public class GildedRoseTest {
 
@@ -13,9 +11,9 @@ public class GildedRoseTest {
 		Item sulfuras = new Item("Sulfuras, Hand of Ragnaros", 0, 80);
 
 		GildedRose sut = new GildedRose(itemAsArray(sulfuras));
-		
+
 		sut.updateQuality();
-		
+
 		assertEquals(80, sulfuras.quality);
 	}
 
@@ -40,8 +38,6 @@ public class GildedRoseTest {
 
 		assertEquals(9, normalItem.sellIn);
 	}
-
-
 
 	@Test
 	public void should_lower_the_quality_by_one_for_normal_items() throws Exception {
@@ -87,7 +83,6 @@ public class GildedRoseTest {
 		assertEquals(26, agedBrie.quality);
 	}
 
-
 	@Test
 	public void should_not_increase_the_quality_of_aged_brie_over_max_quality() throws Exception {
 		Item agedBrie = new Item("Aged Brie", 10, 50);
@@ -98,7 +93,6 @@ public class GildedRoseTest {
 
 		assertEquals(50, agedBrie.quality);
 	}
-
 
 	@Test
 	public void should_make_backstage_passes_worthless_once_concert_has_happened() throws Exception {
@@ -112,7 +106,8 @@ public class GildedRoseTest {
 	}
 
 	@Test
-	public void should_increase_backstage_passes_quality_by_1_when_the_concert_is_more_than_10_days_away() throws Exception {
+	public void should_increase_backstage_passes_quality_by_1_when_the_concert_is_more_than_10_days_away()
+			throws Exception {
 		Item backStagePass = new Item("Backstage passes to a TAFKAL80ETC concert", 11, 20);
 
 		GildedRose sut = new GildedRose(itemAsArray(backStagePass));
@@ -123,7 +118,8 @@ public class GildedRoseTest {
 	}
 
 	@Test
-	public void should_increase_backstage_passes_quality_by_2_when_the_concert_is_10_days_or_less_away() throws Exception {
+	public void should_increase_backstage_passes_quality_by_2_when_the_concert_is_10_days_or_less_away()
+			throws Exception {
 		Item backStagePass = new Item("Backstage passes to a TAFKAL80ETC concert", 10, 27);
 
 		GildedRose sut = new GildedRose(itemAsArray(backStagePass));
@@ -161,11 +157,11 @@ public class GildedRoseTest {
 		assertEquals(50, backStagePass5DaysAway.quality);
 	}
 
-    private Item[] itemAsArray(Item item) {
-        Item[] items = new Item[1];
-        items[0] = item;
+	private Item[] itemAsArray(Item item) {
+		Item[] items = new Item[1];
+		items[0] = item;
 
-        return items;
-    }
+		return items;
+	}
 
 }
