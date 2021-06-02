@@ -4,7 +4,7 @@
   "description": "Javascript katas for the Agile Engineering course",
   "devDependencies": {
     "approvals": "^3.0.5",
-    "browserslist": "4.16.5",
+    "browserslist": "^4.16.6",
     "eslint-plugin-nodeca": "^1.0.3",
     "istanbul": "^0.4.5",
     "marked": "^0.3.18",
